@@ -1,0 +1,37 @@
+[
+  {
+    "id": "proj-1",
+    "slug": "project-1",
+    "title": "Проект 1",
+    "description": "Опис проекту 1",
+    "image": "/images/project1.png"
+  },
+  {
+    "id": "proj-2",
+    "slug": "project-2",
+    "title": "Проект 2",
+    "description": "Опис проекту 2",
+    "image": "/images/project1.png"
+  },
+  {
+    "id": "proj-3",
+    "slug": "project-2",
+    "title": "Проект 2",
+    "description": "Опис проекту 2",
+    "image": "/images/project1.png"
+  },
+  {
+    "id": "proj-4",
+    "slug": "project-2",
+    "title": "Проект 2",
+    "description": "Опис проекту 2",
+    "image": "/images/project1.png"
+  },
+  {
+    "id": "proj-5",
+    "slug": "project-2",
+    "title": "Проект 2",
+    "description": "Опис проекту 2",
+    "image": "/images/project1.png"
+  }
+]
