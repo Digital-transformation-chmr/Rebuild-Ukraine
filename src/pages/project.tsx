@@ -1,45 +1,40 @@
-import {useParams} from "react-router-dom";
-import {useEffect, useState} from "react";
-import {Helmet} from "react-helmet-async";
+import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
-export interface Project {
-    "id": string,
-    "slug": string,
-    "title": string,
-    "description": string,
-    "image": string
+interface Project {
+    id: string;
+    slug: string;
+    title: { [key: string]: string }; // Об'єкт для назв
+    description: { [key: string]: string }; // Об'єкт для описів
+    image: string;
 }
 
-export default function Project() {
-    const {id} = useParams<{ id: string }>();
+export default function ProjectPage() {
+    const { id } = useParams<{ id: string }>();
     const [project, setProject] = useState<Project | null>(null);
+    const lang = localStorage.getItem('language') || 'en'; // Зчитування мови з localStorage
 
     useEffect(() => {
         fetch("/data/projects.json")
             .then((response) => response.json())
             .then((data) => {
                 const foundProject = data.find((proj: Project) => proj.id === id);
-                setProject(foundProject);
+                setProject(foundProject || null);
             });
     }, [id]);
 
-    if (!project) {
-        return <p>Loading...</p>;
-    }
+    if (!project) return <div>Loading...</div>;
 
     return (
-        <>
+        <div>
             <Helmet>
-                <title>My Projects - Home</title>
-                <meta name="description" content="Explore my portfolio of projects."/>
+                <title>{project.title[lang]}</title>
+                <meta name="description" content={project.description[lang]} />
             </Helmet>
-            <div className="p-4">
-                <h1>{project.title}</h1>
-                <a href={project.image} download className="text-blue-500 underline">
-                    Завантажити документ
-                </a>
-            </div>
-        </>
-
+            <h1>{project.title[lang]}</h1>
+            <p>{project.description[lang]}</p>
+            <img src={project.image} alt={project.title[lang]} />
+        </div>
     );
 }
