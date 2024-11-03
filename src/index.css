@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+}
+
+.slick-dots {
+    bottom: 10px !important;
+}
+
+.slick-next {
+    right: 10px !important;
+}
+
+
+.slick-prev {
+    left: 10px !important;
+    z-index: 4;
+}
+
+.slick-prev:before, .slick-next:before {
+    opacity: 1 !important;
+    color: #4CAF50 !important; /* Зеленый оттенок */
+    font-size: 25px !important;
+}
+
+.slick-dots li.slick-active button:before{
+    opacity: 1 !important;
+    color: #4CAF50 !important; /* Зеленый оттенок */
+}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before{
+    opacity: 0.55!important;
+    color: #4CAF50 !important; /* Зеленый оттенок */
+}

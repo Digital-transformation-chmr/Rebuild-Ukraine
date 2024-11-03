@@ -1,28 +1,381 @@
 [
   {
-    "id": "proj-1",
-    "slug": "project-1",
+    "id": "3e352c74-33dc-4d23-b0c3-5e938409dcbc",
+    "slug": "Swimming-pool",
     "title": {
-      "en": "Project 1",
-      "ua": "Проект 1"
+      "en": "The sports and rehabilitation complex \"DNIPRO\" with the swimming pool in Cherkasy",
+      "ua": "Спортивний та реабілітаційний комплекс \"Дніпро\" з басейном в Черкасах"
     },
-    "description": {
-      "en": "Description of project 1",
-      "ua": "Опис проекту 1"
-    },
-    "image": "/images/project1.png"
+    "image": "/images/Dnipro.jpg",
+    "slidesPath": "/projects/01-swimming-pool/slides/",
+    "slides": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "16.jpg",
+      "17.jpg",
+      "18.jpg"
+    ],
+    "details": [
+      {
+        "key": {
+          "en": "Cost",
+          "ua": "Вартість"
+        },
+        "value": {
+          "en": "€1,500,000",
+          "ua": "€1 500 000"
+        }
+      },
+      {
+        "key": {
+          "en": "Goal",
+          "ua": "Мета"
+        },
+        "value": {
+          "en": "Create a modern complex with a swimming pool to support health, adaptive sports, and rehabilitation services for veterans, children, and socially vulnerable groups.",
+          "ua": "Створення сучасного комплексу з басейном для оздоровлення, адаптивного спорту та реабілітації ветеранів, дітей і соціально вразливих груп."
+        }
+      },
+      {
+        "key": {
+          "en": "Visitors",
+          "ua": "Кількість відвідувачів"
+        },
+        "value": {
+          "en": "Local residents - 4,230 monthly, veterans - over 1,300, children from sports schools - 28,460 training sessions per month.",
+          "ua": "Містяни - 4230 осіб на місяць, ветерани - понад 1300 осіб, діти з спортивних шкіл - 28 460 тренувань щомісяця."
+        }
+      },
+      {
+        "key": {
+          "en": "Completed Work",
+          "ua": "Виконані роботи"
+        },
+        "value": {
+          "en": "Preparatory and dismantling work, brick reinforcement, roof insulation, and ventilation installation.",
+          "ua": "Підготовчі роботи, розбірні роботи, підсилення цегляних опор, утеплення даху, встановлення вентиляційної системи."
+        }
+      },
+      {
+        "key": {
+          "en": "Expected Outcome",
+          "ua": "Очікуваний результат"
+        },
+        "value": {
+          "en": "Improved physical and mental well-being for visitors and enhanced social integration.",
+          "ua": "Покращення фізичного і психологічного стану відвідувачів, сприяння соціальній інтеграції."
+        }
+      }
+    ]
   },
   {
-    "id": "proj-2",
-    "slug": "project-2",
+    "id": "9d90113a-c9ba-488f-8443-955065efe802",
+    "slug": "Music-School",
     "title": {
-      "en": "Project 2",
-      "ua": "Проект 2"
+      "en": "Restoration of Cherkasy Children's Music School No. 1 named after M.V. Lysenko",
+      "ua": "Реставрація Черкаської дитячої музичної школи №1 ім. М.В. Лисенка"
     },
-    "description": {
-      "en": "Description of project 2",
-      "ua": "Опис проекту 2"
+    "image": "/images/02-music-school.jpg",
+    "details": [
+      {
+        "key": {
+          "en": "Cost",
+          "ua": "Вартість"
+        },
+        "value": {
+          "en": "€370,000",
+          "ua": "€370 000"
+        }
+      },
+      {
+        "key": {
+          "en": "Objective",
+          "ua": "Мета"
+        },
+        "value": {
+          "en": "Restore this architectural monument to provide high-quality conditions for music education and expand the school’s facilities.",
+          "ua": "Відновлення пам’ятки архітектури, забезпечення якісних умов для музичного навчання та розширення приміщень школи."
+        }
+      },
+      {
+        "key": {
+          "en": "Number of Visitors",
+          "ua": "Кількість відвідувачів"
+        },
+        "value": {
+          "en": "660 students and 110 employees, with a daily visitor count of around 450.",
+          "ua": "660 учнів і 110 працівників, щодня – близько 450 осіб."
+        }
+      },
+      {
+        "key": {
+          "en": "Work",
+          "ua": "Виконані роботи"
+        },
+        "value": {
+          "en": "Facade restoration, repair of structural elements, fire safety system improvement.",
+          "ua": "Реставрація фасаду, відновлення частин будівлі, ремонт системи пожежної безпеки."
+        }
+      },
+      {
+        "key": {
+          "en": "Outcome",
+          "ua": "Очікуваний результат"
+        },
+        "value": {
+          "en": "Additional classrooms, a new choir hall for 70 people, and expanded opportunities for other art disciplines.",
+          "ua": "Додаткові класи, нова хорова зала на 70 осіб, розширення можливостей для навчання інших мистецьких спеціалізацій."
+        }
+      }
+    ]
+  },
+  {
+    "id": "74b9877d-0338-489f-8de7-e41f664b7604",
+    "slug": "Mother-and-Child-Сenter",
+    "title": {
+      "en": "Overhaul of the Cherkasy City Maternity Hospital \"Mother and Child Center\"",
+      "ua": "Капітальний ремонт Черкаського міського пологового будинку «Центр матері та дитини»"
     },
-    "image": "/images/project2.png"
+    "image": "/images/03-Mother_and_child_center.jpg",
+    "details": [
+      {
+        "key": {
+          "en": "Cost",
+          "ua": "Вартість"
+        },
+        "value": {
+          "en": "€1,780,400",
+          "ua": "€1 780 400"
+        }
+      },
+      {
+        "key": {
+          "en": "Description",
+          "ua": "Опис"
+        },
+        "value": {
+          "en": "Establish modern conditions for providing 24/7 obstetric and gynecological care, along with thermal modernization.",
+          "ua": "Створення сучасних умов для надання акушерської та гінекологічної допомоги 24/7, забезпечення теплової модернізації."
+        }
+      },
+      {
+        "key": {
+          "en": "Facility Users",
+          "ua": "Контингент установи"
+        },
+        "value": {
+          "en": "1,225 mothers, 1,227 newborns, and 82,596 women annually.",
+          "ua": "1225 породіль, 1227 новонароджених і 82 596 жінок щороку."
+        }
+      },
+      {
+        "key": {
+          "en": "Work",
+          "ua": "Виконання робіт"
+        },
+        "value": {
+          "en": "Facade renovation, thermal insulation, replacement of old wooden frames.",
+          "ua": "Ремонт фасадів, утеплення, заміна старих дерев'яних блоків."
+        }
+      },
+      {
+        "key": {
+          "en": "Outcome",
+          "ua": "Очікуваний результат"
+        },
+        "value": {
+          "en": "Improved birth rate, enhanced energy efficiency, and increased accessibility for those with limited mobility.",
+          "ua": "Поліпшення умов народжуваності, підвищення енергоефективності та доступності для маломобільних груп."
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "eba82a50-f3c2-4908-84d1-9da1fd2df575",
+    "slug": "First-Cherkasy-City-Hospital",
+    "title": {
+      "en": "Reconstruction of the First Cherkasy City Hospital",
+      "ua": "Реконструкція Черкаської міської лікарні №1"
+    },
+    "image": "/images/04-first-cherkasy-city-hospital.jpg",
+    "details": [
+      {
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€1,207,500",
+          "ua": "€1 207 500"
+        }
+      },
+      {
+        "key": {
+          "en": "Description",
+          "ua": "Опис"
+        },
+        "value": {
+          "en": "Improve healthcare through the modernization of this multidisciplinary facility, which offers specialized care around the clock.",
+          "ua": "Покращення медичних послуг через модернізацію багатопрофільного закладу, який надає спеціалізовану допомогу цілодобово."
+        }
+      },
+      {
+        "key": {
+          "en": "Number of Patients",
+          "ua": "Кількість пацієнтів"
+        },
+        "value": {
+          "en": "9,773 patients and 3,463 surgeries annually.",
+          "ua": "9773 пацієнти та 3463 хірургічних втручання щороку."
+        }
+      },
+      {
+        "key": {
+          "en": "Work",
+          "ua": "Виконання робіт"
+        },
+        "value": {
+          "en": "Roof repair, facade insulation, electrical network replacement, and equipment updates.",
+          "ua": "Ремонт даху, утеплення фасадів, заміна електромереж та обладнання."
+        }
+      },
+      {
+        "key": {
+          "en": "Outcome",
+          "ua": "Очікуваний результат"
+        },
+        "value": {
+          "en": "Enhanced healthcare services, improved conditions for patients and staff.",
+          "ua": "Підвищення рівня медичних послуг, покращення умов для пацієнтів і персоналу."
+        }
+      }
+    ]
+  },
+  {
+    "id": "256d8995-de87-415a-9ac6-e486485179db",
+    "slug": "Third-Cherkasy-Emergency-Hospital",
+    "title": {
+      "en": "Overhaul of the Rehabilitation Department at the Third Cherkasy Emergency Hospital",
+      "ua": "Капітальний ремонт відділення реабілітації у Черкаській міській лікарні швидкої допомоги"
+    },
+    "image": "/images/Dnipro.jpg",
+    "details": [
+      {
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€1,304,500",
+          "ua": "€1 304 500"
+        }
+      },
+      {
+        "key": {
+          "en": "Description",
+          "ua": "Опис"
+        },
+        "value": {
+          "en": "Establish the largest rehabilitation department in Cherkasy, complete with renovated rooms and therapy halls.",
+          "ua": "Створення найбільшого реабілітаційного відділення в Черкасах з оновленими палатами та залами."
+        }
+      },
+      {
+        "key": {
+          "en": "Number of Patients",
+          "ua": "Кількість пацієнтів"
+        },
+        "value": {
+          "en": "Inpatient - 1,421, outpatient - 2,235 annually.",
+          "ua": "Стаціонарно – 1421, амбулаторно – 2235 осіб."
+        }
+      },
+      {
+        "key": {
+          "en": "Work",
+          "ua": "Виконання робіт"
+        },
+        "value": {
+          "en": "Room renovation, replacement of water and sewage systems, flooring.",
+          "ua": "Реконструкція палат, заміна водопостачання та каналізації, покриття підлог."
+        }
+      },
+      {
+        "key": {
+          "en": "Outcome",
+          "ua": "Очікуваний результат"
+        },
+        "value": {
+          "en": "Expanded rehabilitation services, capacity for 60 patients simultaneously, and space for individual therapy procedures.",
+          "ua": "Розширення послуг реабілітації, доступність для 60 пацієнтів одночасно, з можливістю індивідуальних процедур."
+        }
+      }
+    ]
+  },
+  {
+    "id": "7b197324-44ee-4ce5-a9b9-7c6fc3f961bf",
+    "slug": "Hospital-for-War-Veterans-Rehabilitation",
+    "title": {
+      "en": "Infectious Diseases Hospital for War Veterans' Rehabilitation",
+      "ua": "Інфекційна лікарня для реабілітації ветеранів війни"
+    },
+    "image": "/images/Dnipro.jpg",
+    "details": [
+      {
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€1,980,000",
+          "ua": "€1 980 000"
+        }
+      },
+      {
+        "key": {
+          "en": "Description",
+          "ua": "Опис"
+        },
+        "value": {
+          "en": "Update and expand facilities to provide specialized care and rehabilitation for war veterans.",
+          "ua": "Оновлення та розширення приміщень для спеціалізованої допомоги та реабілітації ветеранів."
+        }
+      },
+
+      {
+        "key": {
+          "en": "Work",
+          "ua": "Виконання робіт"
+        },
+        "value": {
+          "en": "Room repairs, window replacement, installation of new power systems.",
+          "ua": "Ремонт палат, заміна вікон, встановлення нових систем енергопостачання."
+        }
+      },
+      {
+        "key": {
+          "en": "Outcome",
+          "ua": "Очікуваний результат"
+        },
+        "value": {
+          "en": "1,200 m² dedicated to medical rehabilitation, 30 beds for veterans, with space to apply advanced rehabilitation methods.",
+          "ua": "1200 м² для медичної реабілітації 30 пацієнтів одночасно з можливістю використання новітніх методик."
+        }
+      }
+    ]
   }
 ]
