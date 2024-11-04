@@ -11,7 +11,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Navigate to="/en" replace />} />
-                    <Route path="/:lang" element={<Layout/>}>
+                    <Route path="/:lang" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route path=":id" element={<Project />} />
                     </Route>

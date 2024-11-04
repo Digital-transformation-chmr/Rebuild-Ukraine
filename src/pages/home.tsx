@@ -17,7 +17,7 @@ export default function Home() {
                 {projects.map((project) => (
                     <Link to={`/${language}/${project.id}`} key={project.id}>
                         <div className="group flex justify-center items-center flex-col border shadow-2xl relative rounded-xl overflow-hidden">
-                            <img src={project.image} alt={project.title[language]}
+                            <img src={project.titleImage} alt={project.title[language]}
                                  className="w-full h-full object-cover"/>
                             <div
                                 className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-75 flex justify-center items-center transition-all duration-500 ease-in-out">

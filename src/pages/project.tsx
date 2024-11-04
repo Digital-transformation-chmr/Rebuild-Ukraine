@@ -36,20 +36,20 @@ export default function ProjectPage() {
                 <meta name="description" content={title}/>
             </Helmet>
 
-            {project.slides && project.slides.length > 0 ? (
+            {project.slidesInfo.slidesPhotos && project.slidesInfo.slidesPhotos.length > 0 ? (
                 <div className={'w-1/2'}>
                     <Slider {...settings}>
-                        {project.slides.map((slide, index) => (
+                        {project.slidesInfo.slidesPhotos.map((slide, index) => (
                             <div key={index}>
-                                <img src={project.slidesPath + slide} alt={title}/>
+                                <img src={project.slidesInfo.slidesPath + slide} alt={title}/>
                             </div>
                         ))}
                     </Slider>
                 </div>
             ) : (
-                project.image && project.image.length > 0 && (
+                project.titleImage && project.titleImage.length > 0 && (
                     <div className={'w-1/2'}>
-                        <img src={project.image} alt={title} className="w-full h-auto"/>
+                        <img src={project.titleImage} alt={title} className="w-full h-auto"/>
                     </div>
                 )
             )}
@@ -74,14 +74,19 @@ export default function ProjectPage() {
                 </div>
 
                 <div className="flex space-x-4 mt-6">
-                    <button
-                        className="px-6 py-3 bg-blue-500 text-white rounded-md shadow hover:bg-blue-600 transition duration-200">
-                        {t('button.presentationPPTX')}
-                    </button>
-                    <button
-                        className="px-6 py-3 bg-amber-500 text-black rounded-md shadow hover:bg-amber-600 transition duration-200">
-                        {t('button.presentationPDF')}
-                    </button>
+                    <a href={project.files.pptx.url} download={project.files.pptx.fileName}>
+                        <button
+                            className="px-6 py-3 bg-blue-500 text-white rounded-md shadow hover:bg-blue-600 transition duration-200">
+                            {t('button.presentationPPTX')}
+                        </button>
+                    </a>
+
+                    <a href={project.files.pdf.url} download={project.files.pdf.fileName}>
+                        <button
+                            className="px-6 py-3 bg-amber-500 text-black rounded-md shadow hover:bg-amber-600 transition duration-200">
+                            {t('button.presentationPDF')}
+                        </button>
+                    </a>
                     <button
                         className="px-6 py-3 bg-green-500 text-black rounded-md shadow hover:bg-green-600 transition duration-200">
                         {t('button.docs')}
