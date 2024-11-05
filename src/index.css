@@ -10,22 +10,33 @@ body {
 @tailwind utilities;
 
 .slick-dots li button:before {
-    font-size: 15px !important;
+    font-size: 13px !important;
 }
 
 .slick-dots {
-    bottom: 10px !important;
+    bottom: 5px !important;
+}
+
+.info-slider .slick-next {
+    right: -15px!important;
+    z-index: 8;
+}
+
+.info-slider .slick-prev {
+    left: -15px!important;
+    z-index: 8;
 }
 
 .slick-next {
     right: 10px !important;
+    z-index: 8;
 }
-
 
 .slick-prev {
     left: 10px !important;
-    z-index: 4;
+    z-index: 8;
 }
+
 
 .slick-prev:before, .slick-next:before {
     opacity: 1 !important;
@@ -33,12 +44,20 @@ body {
     font-size: 25px !important;
 }
 
-.slick-dots li.slick-active button:before{
+.slick-dots li.slick-active button:before {
     opacity: 1 !important;
     color: #4CAF50 !important; /* Зеленый оттенок */
 }
 
-.slick-dots li button:hover:before, .slick-dots li button:focus:before{
-    opacity: 0.55!important;
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+    opacity: 0.55 !important;
     color: #4CAF50 !important; /* Зеленый оттенок */
+}
+
+.info-slider .slick-list .slick-track /*.slick-slide*/ {
+    padding-top: 15px;
+}
+
+.info-slider .slick-list .slick-track .slick-slide {
+    padding: 0 15px;
 }

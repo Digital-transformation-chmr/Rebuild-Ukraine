@@ -16,6 +16,8 @@ i18n
         resources: {
             en: {
                 translation: {
+                    projectInfoButton:'Please familiarize yourself with the project details',
+                    sliderText: 'slide image',
                     header: {title: "Rebuild Ukraine | Cherkasy"},
                     footer: {
                         name: 'Cherkasy City Council',
@@ -38,6 +40,8 @@ i18n
             },
             ua: {
                 translation: {
+                    projectInfoButton:'Ознайомитись з проєктом',
+                    sliderText: 'Зображення в слайдері',
                     header: {title: "Rebuild Ukraine | Черкаси"},
                     footer: {
                         name: 'Черкаська міська рада',

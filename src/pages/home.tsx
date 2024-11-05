@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
 import {useLanguageStore} from "../store/useLanguageStore.ts";
 import {useFetchProjects} from "../hooks/useFetchProjects.ts";
+import MainProjectCard from "../components/main-project-card.tsx";
 
 export default function Home() {
     const {language} = useLanguageStore();
@@ -13,10 +14,12 @@ export default function Home() {
                 <title>Rebuild-Ukraine | Cherkasy</title>
                 <meta name="description" content="Explore my portfolio of projects."/>
             </Helmet>
-            <main className="grid grid-cols-2 gap-[60px] p-10">
-                {projects.map((project) => (
+            {projects?.[0] && <MainProjectCard projectData={projects[0]}/>}
+            <main className="grid grid-cols-2 gap-[60px]">
+                {projects.slice(1).map((project) => (
                     <Link to={`/${language}/${project.id}`} key={project.id}>
-                        <div className="group flex justify-center items-center flex-col border shadow-2xl relative rounded-xl overflow-hidden">
+                        <div
+                            className="group flex justify-center items-center flex-col border shadow-2xl relative rounded-xl overflow-hidden">
                             <img src={project.titleImage} alt={project.title[language]}
                                  className="w-full h-full object-cover"/>
                             <div
@@ -31,6 +34,7 @@ export default function Home() {
                     </Link>
                 ))}
             </main>
+
         </div>
     );
 }

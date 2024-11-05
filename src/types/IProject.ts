@@ -27,5 +27,5 @@ export interface IProject {
     slidesInfo: ISlideInfo;
     details: IProjectDetail[];
     files: IFiles; // Оновлений об’єкт для зберігання інформації про файли
-    dopInfo?: { [key: string]: string }; // Додаткове поле для додаткової інформації
+    dopInfo?: IProjectDetail[]; // Додаткове поле для додаткової інформації
 }

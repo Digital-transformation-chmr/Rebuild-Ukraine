@@ -92,6 +92,88 @@
           "ua": "Покращення фізичного і психологічного стану відвідувачів, сприяння соціальній інтеграції."
         }
       }
+    ],
+    "dopInfo": [
+      {
+        "key": {
+          "en": "Unified Sports and Rehabilitation Area",
+          "ua": "Єдина зона спорту та реабілітації"
+        },
+        "value": {
+          "en": "Establishment of a unified sports and rehabilitation complex to support physical fitness and well-being for the community.",
+          "ua": "Створення єдиного спортивного та реабілітаційного комплексу для підтримки фізичного здоров'я та добробуту громади."
+        }
+      },
+      {
+        "key": {
+          "en": "Infrastructural Development of Cherkasy",
+          "ua": "Розвиток інфраструктури Черкас"
+        },
+        "value": {
+          "en": "Contributing to the development of local infrastructure to improve sports and health facilities in Cherkasy.",
+          "ua": "Внесок у розвиток місцевої інфраструктури для покращення спортивних та медичних об'єктів у Черкасах."
+        }
+      },
+      {
+        "key": {
+          "en": "Support for Vulnerable Population Groups",
+          "ua": "Підтримка вразливих груп населення"
+        },
+        "value": {
+          "en": "Providing facilities and programs tailored for vulnerable groups, including individuals with disabilities and veterans.",
+          "ua": "Надання об'єктів та програм, спеціально розроблених для вразливих груп, включаючи людей з обмеженими можливостями та ветеранів."
+        }
+      },
+      {
+        "key": {
+          "en": "Social Integration and Inclusion",
+          "ua": "Соціальна інтеграція та інклюзія"
+        },
+        "value": {
+          "en": "Promoting social cohesion through inclusive activities and adaptive sports, enhancing community integration.",
+          "ua": "Сприяння соціальній згуртованості через інклюзивні заходи та адаптивний спорт, що посилює інтеграцію громади."
+        }
+      },
+      {
+        "key": {
+          "en": "Extensive Visitor Access",
+          "ua": "Широкий доступ для відвідувачів"
+        },
+        "value": {
+          "en": "Welcoming over 4,000 city dwellers monthly, along with 1,300 veterans and 28,460 students from sports schools.",
+          "ua": "Прийом понад 4000 містян щомісяця, а також 1300 ветеранів і 28 460 учнів спортивних шкіл."
+        }
+      },
+      {
+        "key": {
+          "en": "Adaptive Sports Opportunities",
+          "ua": "Можливості для адаптивного спорту"
+        },
+        "value": {
+          "en": "Offering adaptive sports such as athletics, table tennis, archery, powerlifting, AMP football, and sitting volleyball.",
+          "ua": "Пропозиція адаптивних видів спорту, таких як легка атлетика, настільний теніс, стрільба з лука, пауерліфтинг, AMP-футбол і волейбол сидячи."
+        }
+      },
+      {
+        "key": {
+          "en": "Water Sports Access for All",
+          "ua": "Доступ до водних видів спорту для всіх"
+        },
+        "value": {
+          "en": "Facilitating water sports for vulnerable groups, promoting inclusivity and recreational opportunities for everyone.",
+          "ua": "Сприяння доступу до водних видів спорту для вразливих груп, забезпечуючи інклюзивність і можливості для дозвілля."
+        }
+      },
+      {
+        "key": {
+          "en": "Funding and Financial Needs",
+          "ua": "Фінансування та потреби у коштах"
+        },
+        "value": {
+          "en": "The total project cost is estimated at €1,500,000, with €270,000 already funded, leaving a shortfall of €1,230,000.",
+          "ua": "Загальна вартість проєкту оцінюється в 1 500 000 євро, з яких 270 000 євро вже профінансовано, залишок становить 1 230 000 євро."
+        }
+      }
     ]
   },
   {

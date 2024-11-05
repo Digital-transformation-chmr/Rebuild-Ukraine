@@ -3,22 +3,12 @@ import {Helmet} from "react-helmet-async";
 import {useLanguageStore} from "../store/useLanguageStore.ts";
 import {useSetLanguageFromURL} from "../hooks/useSetLanguageFromURL.ts";
 import {useFetchProject} from "../hooks/useFetchProject.ts";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import {useTranslation} from "react-i18next";
+import MainProjectSlider from "../components/main-project-slider.tsx";
 
 export default function ProjectPage() {
     const {t} = useTranslation();
-
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-    };
 
     useSetLanguageFromURL();
     const {id} = useParams<{ id: string }>();
@@ -38,13 +28,7 @@ export default function ProjectPage() {
 
             {project.slidesInfo.slidesPhotos && project.slidesInfo.slidesPhotos.length > 1 ? (
                 <div className={'w-1/2'}>
-                    <Slider {...settings}>
-                        {project.slidesInfo.slidesPhotos.map((slide, index) => (
-                            <div key={index}>
-                                <img src={project.slidesInfo.slidesPath + slide} alt={title}/>
-                            </div>
-                        ))}
-                    </Slider>
+                    <MainProjectSlider project={project} />
                 </div>
             ) : (
                 project.titleImage && project.titleImage.length > 0 && (
