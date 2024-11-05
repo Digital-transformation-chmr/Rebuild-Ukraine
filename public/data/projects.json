@@ -6,10 +6,11 @@
       "en": "The sports and rehabilitation complex \"DNIPRO\" with the swimming pool in Cherkasy",
       "ua": "Спортивний та реабілітаційний комплекс \"Дніпро\" з басейном в Черкасах"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/01-swimming-pool/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/01-swimming-pool/slides/",
       "slidesPhotos": [
+        "0.jpg",
         "1.jpg",
         "2.jpg",
         "3.jpg",
@@ -100,10 +101,11 @@
       "en": "Restoration of Cherkasy Children's Music School No. 1 named after M.V. Lysenko",
       "ua": "Реставрація Черкаської дитячої музичної школи №1 ім. М.В. Лисенка"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/02-music-school/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/02-music-school/slides/",
       "slidesPhotos": [
+        "0.jpg",
         "1.jpg",
         "2.jpg"
       ]
@@ -178,10 +180,11 @@
       "en": "Overhaul of the Cherkasy City Maternity Hospital \"Mother and Child Center\"",
       "ua": "Капітальний ремонт Черкаського міського пологового будинку «Центр матері та дитини»"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/03-mother-and-child-center/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/03-mother-and-child-center/slides/",
       "slidesPhotos": [
+        "0.jpg",
         "6.jpg",
         "7.jpg",
         "8.jpg"
@@ -257,10 +260,11 @@
       "en": "Reconstruction of the First Cherkasy City Hospital",
       "ua": "Реконструкція Черкаської міської лікарні №1"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/04-first-cherkasy-city-hospital/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/04-first-cherkasy-city-hospital/slides/",
       "slidesPhotos": [
+        "0.jpg",
         "9.jpg",
         "10.jpg",
         "11.jpg"
@@ -336,12 +340,14 @@
       "en": "Overhaul of the Rehabilitation Department at the Third Cherkasy Emergency Hospital",
       "ua": "Капітальний ремонт відділення реабілітації у Черкаській міській лікарні швидкої допомоги"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/05-third-cherkasy-emergency-hospital/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/05-third-cherkasy-emergency-hospital/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "12.jpg",
+        "13.jpg",
+        "14.jpg"
       ]
     },
     "files": {
@@ -414,12 +420,13 @@
       "en": "Infectious Diseases Hospital for War Veterans' Rehabilitation",
       "ua": "Інфекційна лікарня для реабілітації ветеранів війни"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/06-hospital-for-war-veterans-rehabilitation/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/06-hospital-for-war-veterans-rehabilitation/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "15.jpg",
+        "16.jpg"
       ]
     },
     "files": {
@@ -482,12 +489,13 @@
       "en": "Center for Internally Displaced Persons (IDPs)",
       "ua": "Центр для внутрішньо переміщених осіб (ВПО)"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/07-center-for-internally-displaced-persons/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/07-center-for-internally-displaced-persons/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "17.jpg",
+        "18.jpg"
       ]
     },
     "files": {
@@ -560,12 +568,13 @@
       "en": "Waste Processing Plant",
       "ua": "Завод з переробки відходів"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/08-waste-processing-plant/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/08-waste-processing-plant/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "19.jpg",
+        "20.jpg"
       ]
     },
     "files": {
@@ -638,12 +647,13 @@
       "en": "Solar Power Stations for Municipal Buildings",
       "ua": "Сонячні електростанції для муніципальних будівель"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/09-for-municipal-buildings/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/09-solar-power-stations-for-municipal-buildings/slides/",
+      "slidesPath": "/projects/09-for-municipal-buildings/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "21.jpg",
+        "22.jpg"
       ]
     },
     "files": {
@@ -706,12 +716,13 @@
       "en": "Reconstruction of the Main Sewage Collector on Khimikiv Avenue",
       "ua": "Реконструкція головного колектора на проспекті Хіміків"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/10-main-sewage-collector-khimikiv/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/10-main-sewage-collector-khimikiv/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "23.jpg",
+        "24.jpg"
       ]
     },
     "files": {
@@ -764,12 +775,13 @@
       "en": "Reconstruction of the Main Sewage Collector on Hoholia Street",
       "ua": "Реконструкція головного колектора на вул. Гоголя"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/11-main-sewage-collector-hoholia-street/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/11-main-sewage-collector-hoholia-street/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "23.jpg",
+        "24.jpg"
       ]
     },
     "files": {
@@ -842,12 +854,14 @@
       "en": "Solar Power Plant at the Dnipro Water Treatment Plant",
       "ua": "Сонячна електростанція на очисній станції Дніпра"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/12-solar-power-plant-at-the-dnipro-water/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/12-solar-power-plant-at-the-dnipro-water/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "25.jpg",
+        "26.jpg",
+        "27.jpg"
       ]
     },
     "files": {
@@ -920,22 +934,23 @@
       "en": "Wind Power Plant at the Dnipro Water Treatment Plant",
       "ua": "Вітрова електростанція на очисній станції Дніпра"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/13-energy-solutions-cherkasyvodokanal/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/13-wind-power-plant/slides/",
+      "slidesPath": "/projects/13-energy-solutions-cherkasyvodokanal/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "28.jpg",
+        "29.jpg"
       ]
     },
     "files": {
       "pptx": {
-        "fileName": "13-wind-power-plant.pptx",
-        "url": "/projects/13-wind-power-plant/13-wind-power-plant.pptx"
+        "fileName": "13-energy-solutions-cherkasyvodokanal.pptx",
+        "url": "/projects/13-energy-solutions-cherkasyvodokanal/13-energy-solutions-cherkasyvodokanal.pptx"
       },
       "pdf": {
-        "fileName": "13-wind-power-plant.pdf",
-        "url": "/projects/13-wind-power-plant/13-wind-power-plant.pdf"
+        "fileName": "13-energy-solutions-cherkasyvodokanal.pdf",
+        "url": "/projects/13-energy-solutions-cherkasyvodokanal.pdf"
       }
     },
     "details": [
@@ -998,12 +1013,12 @@
       "en": "Boiler House Reconstruction on Yevhenia Kukhartsia Street",
       "ua": "Реконструкція котельні на вул. Євгенія Кухарця"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/14-boiler-house-reconstruction/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/14-boiler-house-reconstruction/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "30.jpg"
       ]
     },
     "files": {
@@ -1076,12 +1091,12 @@
       "en": "Heat Pumps in the 'Mytnytsia' Microdistrict",
       "ua": "Теплові насоси в мікрорайоні 'Митниця'"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/15-heat-pumps-mytnytsia/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/15-heat-pumps-mytnytsia/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "31.jpg"
       ]
     },
     "files": {
@@ -1154,12 +1169,12 @@
       "en": "Installation of a Solid Fuel Boiler on St. Luka Street",
       "ua": "Установка твердопаливного котла на вул. Святого Луки"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/16-solid-fuel-boiler/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/16-solid-fuel-boiler/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "32.jpg"
       ]
     },
     "files": {
@@ -1232,12 +1247,13 @@
       "en": "Installation of Individual Heating Units (IHUs)",
       "ua": "Встановлення індивідуальних теплових пунктів (ІТП)"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/17-individual-heating-units/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/17-individual-heating-units/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "33.jpg",
+        "34.jpg"
       ]
     },
     "files": {
@@ -1310,12 +1326,13 @@
       "en": "Construction of Kvitkova Street (from Sumgaitska St. to Khomenko St.)",
       "ua": "Будівництво вул. Квіткова (від вул. Сумгаїтська до вул. Хоменка)"
     },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
+    "titleImage": "/projects/18-kvitkova-street-construction/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/18-kvitkova-street-construction/slides/",
       "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
+        "0.jpg",
+        "35.jpg",
+        "36.jpg"
       ]
     },
     "files": {
@@ -1367,84 +1384,6 @@
         "value": {
           "en": "Enhanced road infrastructure, expanded bicycle network, and improved safety",
           "ua": "Поліпшення дорожньої інфраструктури, розширення велосипедної мережі та підвищення безпеки"
-        }
-      }
-    ]
-  },
-  {
-    "id": "7d3b9f49-9f77-4f5e-865b-4c354e6a5734",
-    "slug": "energy-solutions-cherkasyvodokanal-utility",
-    "title": {
-      "en": "Energy Solutions for the Cherkasyvodokanal Utility",
-      "ua": "Енергетичні рішення для підприємства «Черкасиводоканал»"
-    },
-    "titleImage": "/projects/03-mother-and-child-center/SLIDE.svg",
-    "slidesInfo": {
-      "slidesPath": "/projects/19-energy-solutions-cherkasyvodokanal/slides/",
-      "slidesPhotos": [
-        "1.jpg",
-        "2.jpg"
-      ]
-    },
-    "files": {
-      "pptx": {
-        "fileName": "19-energy-solutions-cherkasyvodokanal.pptx",
-        "url": "/projects/19-energy-solutions-cherkasyvodokanal/19-energy-solutions-cherkasyvodokanal.pptx"
-      },
-      "pdf": {
-        "fileName": "19-energy-solutions-cherkasyvodokanal.pdf",
-        "url": "/projects/19-energy-solutions-cherkasyvodokanal/19-energy-solutions-cherkasyvodokanal.pdf"
-      }
-    },
-    "details": [
-      {
-        "key": {
-          "en": "Cost",
-          "ua": "Вартість"
-        },
-        "value": {
-          "en": "€562,418 for solar power at a pumping station; €578,894 for a cogeneration gas unit",
-          "ua": "€562 418 для сонячної електростанції на насосній станції; €578 894 для когенераційної газової установки"
-        }
-      },
-      {
-        "key": {
-          "en": "Goal",
-          "ua": "Мета"
-        },
-        "value": {
-          "en": "Reduce energy costs by implementing alternative energy sources",
-          "ua": "Зменшення витрат на енергопостачання шляхом впровадження альтернативних джерел енергії"
-        }
-      },
-      {
-        "key": {
-          "en": "Power Capacity",
-          "ua": "Потужність"
-        },
-        "value": {
-          "en": "1 MW for solar; 300 kW for cogeneration",
-          "ua": "1 МВт для сонячної електростанції; 300 кВт для когенерації"
-        }
-      },
-      {
-        "key": {
-          "en": "Work",
-          "ua": "Проведення робіт"
-        },
-        "value": {
-          "en": "Purchase, installation, and commissioning of solar and cogeneration units",
-          "ua": "Придбання, монтаж та запуск сонячної та когенераційної установки"
-        }
-      },
-      {
-        "key": {
-          "en": "Social Significance",
-          "ua": "Соціальне значення"
-        },
-        "value": {
-          "en": "Continuous water supply, especially during outages, and reduction in CO₂ emissions and other pollutants",
-          "ua": "Цілодобове постачання води, особливо під час відключень, зменшення викидів СО₂ та інші екологічні переваги"
         }
       }
     ]

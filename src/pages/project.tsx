@@ -36,7 +36,7 @@ export default function ProjectPage() {
                 <meta name="description" content={title}/>
             </Helmet>
 
-            {project.slidesInfo.slidesPhotos && project.slidesInfo.slidesPhotos.length > 0 ? (
+            {project.slidesInfo.slidesPhotos && project.slidesInfo.slidesPhotos.length > 1 ? (
                 <div className={'w-1/2'}>
                     <Slider {...settings}>
                         {project.slidesInfo.slidesPhotos.map((slide, index) => (
