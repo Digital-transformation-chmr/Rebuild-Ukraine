@@ -3,13 +3,14 @@ import {Helmet} from "react-helmet-async";
 import {useLanguageStore} from "../store/useLanguageStore.ts";
 import {useSetLanguageFromURL} from "../hooks/useSetLanguageFromURL.ts";
 import {useFetchProject} from "../hooks/useFetchProject.ts";
-
 import {useTranslation} from "react-i18next";
 import MainProjectSlider from "../components/main-project-slider.tsx";
 import {getRandomButtonStyle} from "../const/colors.ts";
+import {useScrollToTopOnMobile} from "../hooks/useScrollToTopOnMobile.ts";
 
 export default function ProjectPage() {
     const {t} = useTranslation();
+    useScrollToTopOnMobile();
 
     useSetLanguageFromURL();
     const {id} = useParams<{ id: string }>();
