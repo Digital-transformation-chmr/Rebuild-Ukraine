@@ -14,8 +14,10 @@ export default function Home() {
                 <title>Rebuild-Ukraine | Cherkasy</title>
                 <meta name="description" content="Explore my portfolio of projects."/>
             </Helmet>
+
             {projects?.[0] && <MainProjectCard projectData={projects[0]}/>}
-            <main className="grid grid-cols-2 gap-[60px]">
+            <main
+                className="grid grid-cols-2 sm:grid-cols-1 gap-[60px] xl:gap-[40px] lg:gap-[28px] md:gap-[20px]  sm:gap-4">
                 {projects.slice(1).map((project) => (
                     <Link to={`/${language}/${project.id}`} key={project.id}>
                         <div
@@ -24,10 +26,10 @@ export default function Home() {
                                  className="w-full h-full object-cover"/>
                             <div
                                 className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-75 flex justify-center items-center transition-all duration-500 ease-in-out">
-        <span
-            className="text-white text-lg font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-            {project.title[language]}
-        </span>
+                                <span
+                                    className="p-4 text-white text-lg text-center font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out xl:text-[18px] lg:text-[15px] md:text-[14px] sm:text-[14px]">
+                                    {project.title[language]}
+                                </span>
                             </div>
                         </div>
 

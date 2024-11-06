@@ -22,7 +22,7 @@ export const Header = () => {
 
     return (
         <header
-            className="border-b h-[100px] w-full flex items-center justify-between pl-20 pr-20 sticky top-0 z-10 bg-white py-5 shadow-lg shadow-black/5">
+            className="border-b h-[100px] w-full flex items-center justify-between pl-20 pr-20 sticky top-0 z-10 bg-white py-5 shadow-lg shadow-black/5 sm:p-3">
             {/*<h1 className={'text-[20px] font-light'}>{t('header.title')}</h1>*/}
             <Link to={`/${language}`}>
                 <img src={'/Rebuild-logo.webp'} alt={'Rebuild-Ukraine | Cherkasy'} className={'h-[80px]'}/>
@@ -60,7 +60,7 @@ export const Header = () => {
                                     onClick={() => handleLanguageChange('en')}
                                     className="flex items-center w-full px-4 py-2 text-left hover:bg-blue-600 hover:text-white"
                                 >
-                                    <img src={'/USA.png'} alt="EN flag" className="h-5 w-5 mr-2"/>
+                                    <img src={'/USA.png'} alt="EN flag" className="h-5 w-5 mr-2 3xl:text-[18px]"/>
                                     EN
                                 </button>
                             </Link>

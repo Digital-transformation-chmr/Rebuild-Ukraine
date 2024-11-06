@@ -10,7 +10,6 @@
     "slidesInfo": {
       "slidesPath": "/projects/01-swimming-pool/slides/",
       "slidesPhotos": [
-        "0.jpg",
         "1.jpg",
         "2.jpg",
         "3.jpg",
@@ -39,7 +38,21 @@
       "pdf": {
         "fileName": "01-Swimming_pool_presentation.pdf",
         "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
-      }
+      },
+      "docx": [
+        {
+          "fileName": "Проектно-кошторисна документація",
+          "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
+        },
+        {
+          "fileName": "Проектно-кошторисна документація",
+          "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
+        },
+        {
+          "fileName": "Проектно-кошторисна документація",
+          "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
+        }
+      ]
     },
     "details": [
       {

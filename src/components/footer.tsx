@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <footer className="bg-gray-800 text-white p-6">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+            <div className="container mx-auto grid grid-cols-3 sm:grid-cols-1 gap-4 items-center">
                 <div className="text-center md:text-left">
                     <h2 className="text-lg font-semibold">{t('footer.name')}</h2>
                     <p>{t('footer.street')}</p>

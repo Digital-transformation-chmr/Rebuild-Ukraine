@@ -16,7 +16,7 @@ export interface IFile {
 export interface IFiles {
     pptx: IFile;
     pdf: IFile;
-    docx?: IFile; // Опціональний файл формату docx
+    docx?: IFile[];
 }
 
 export interface IProject {
@@ -26,6 +26,6 @@ export interface IProject {
     titleImage: string;
     slidesInfo: ISlideInfo;
     details: IProjectDetail[];
-    files: IFiles; // Оновлений об’єкт для зберігання інформації про файли
-    dopInfo?: IProjectDetail[]; // Додаткове поле для додаткової інформації
+    files: IFiles;
+    dopInfo?: IProjectDetail[];
 }

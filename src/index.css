@@ -11,37 +11,56 @@ body {
 
 .slick-dots li button:before {
     font-size: 13px !important;
+    @media (max-width: 768px) {
+        font-size: 10px !important;
+        display: none !important;
+    }
 }
+
 
 .slick-dots {
     bottom: 5px !important;
+    @media (max-width: 768px) {
+        display: none !important;
+    }
 }
 
 .info-slider .slick-next {
-    right: -15px!important;
+    right: -15px !important;
     z-index: 8;
 }
 
 .info-slider .slick-prev {
-    left: -15px!important;
+    left: -15px !important;
     z-index: 8;
 }
 
 .slick-next {
-    right: 10px !important;
+    right: 15px !important;
     z-index: 8;
+    @media (max-width: 768px) {
+        right: -20px !important;
+    }
 }
 
 .slick-prev {
     left: 10px !important;
     z-index: 8;
+    @media (max-width: 768px) {
+        left: -20px !important;
+    }
 }
 
+@media (max-width: 768px) {
+    .slick-prev:before, .slick-next:before {
+        font-size: 15px !important;
+    }
+}
 
 .slick-prev:before, .slick-next:before {
     opacity: 1 !important;
     color: #4CAF50 !important; /* Зеленый оттенок */
-    font-size: 25px !important;
+    /*font-size: 25px !important;*/
 }
 
 .slick-dots li.slick-active button:before {
@@ -54,10 +73,15 @@ body {
     color: #4CAF50 !important; /* Зеленый оттенок */
 }
 
-.info-slider .slick-list .slick-track /*.slick-slide*/ {
+.info-slider .slick-list .slick-track /*.slick-slide*/
+{
     padding-top: 15px;
 }
 
 .info-slider .slick-list .slick-track .slick-slide {
     padding: 0 15px;
+}
+
+body {
+    min-width: 400px;
 }
