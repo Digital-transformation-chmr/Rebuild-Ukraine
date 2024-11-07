@@ -6,7 +6,7 @@ import MainProjectCard from "../components/main-project-card.tsx";
 
 export default function Home() {
     const {language} = useLanguageStore();
-    const projects = useFetchProjects();
+    const {projects} = useFetchProjects();
 
     return (
         <div>

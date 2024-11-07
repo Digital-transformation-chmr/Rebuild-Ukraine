@@ -14,9 +14,9 @@ export default function ProjectPage() {
     useSetLanguageFromURL();
     const {id} = useParams<{ id: string }>();
     const {language} = useLanguageStore();
-    const project = useFetchProject(id, language);
+    const {project, isLoading} = useFetchProject(id, language);
 
-    if (!project) return <div>Завантаження...</div>;
+    if (isLoading || project == null) return <div>Loading....</div>;
 
     const title = project.title?.[language] || "Назва недоступна";
 
@@ -42,7 +42,6 @@ export default function ProjectPage() {
 
             <div className="w-1/2 xl:w-full lg:w-full md:w-full sm:w-full">
                 <h1 className="text-2xl font-bold mb-4 text-center sm:text-[15px]">{title}</h1>
-
                 <div className="space-y-3">
                     {project.details.map((detail) => (
                         <div
