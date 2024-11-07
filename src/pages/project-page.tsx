@@ -2,11 +2,11 @@ import {useParams} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
 import {useLanguageStore} from "../store/useLanguageStore.ts";
 import {useSetLanguageFromURL} from "../hooks/useSetLanguageFromURL.ts";
-import {useFetchProject} from "../hooks/useFetchProject.ts";
+import {useFetchProjectById} from "../hooks/useFetchProjectById.ts";
 
 import {useTranslation} from "react-i18next";
-import MainProjectSlider from "../components/main-project-slider.tsx";
-import {getRandomButtonStyle} from "../const/colors.ts";
+import MainProjectPhotoSlider from "../components/main-project-photo-slider.tsx";
+import {getRandomButtonColors} from "../const/colors.ts";
 
 export default function ProjectPage() {
     const {t} = useTranslation();
@@ -14,9 +14,11 @@ export default function ProjectPage() {
     useSetLanguageFromURL();
     const {id} = useParams<{ id: string }>();
     const {language} = useLanguageStore();
-    const {project, isLoading} = useFetchProject(id, language);
+    const {project, isLoading} = useFetchProjectById(id, language);
 
-    if (isLoading || project == null) return <div>Loading....</div>;
+    if (isLoading || project == null) {
+        return (<div>Loading...</div>)
+    }
 
     const title = project.title?.[language] || "Назва недоступна";
 
@@ -30,7 +32,7 @@ export default function ProjectPage() {
 
             {project.slidesInfo.slidesPhotos && project.slidesInfo.slidesPhotos.length > 1 ? (
                 <div className={'w-1/2 xl:w-full lg:w-full md:w-full sm:w-full '}>
-                    <MainProjectSlider project={project}/>
+                    <MainProjectPhotoSlider project={project}/>
                 </div>
             ) : (
                 project.titleImage && project.titleImage.length > 0 && (
@@ -62,14 +64,14 @@ export default function ProjectPage() {
                     className="w-full flex space-x-4 mt-6 xl:justify-around lg:justify-around md:justify-around sm:flex-col gap-4 sm:space-x-0 flex-wrap">
                     <a href={project.files.pptx.url} download={project.files.pptx.fileName}>
                         <button
-                            className={`px-6 py-3 ${getRandomButtonStyle()} text-black rounded-md shadow transition duration-200 w-full`}>
+                            className={`px-6 py-3 ${getRandomButtonColors()} text-black rounded-md shadow transition duration-200 w-full`}>
                             {t('button.presentationPPTX')}
                         </button>
                     </a>
 
                     <a href={project.files.pdf.url} download={project.files.pdf.fileName}>
                         <button
-                            className={`px-6 py-3 ${getRandomButtonStyle()} text-black rounded-md shadow transition duration-200 w-full`}>
+                            className={`px-6 py-3 ${getRandomButtonColors()} text-black rounded-md shadow transition duration-200 w-full`}>
                             {t('button.presentationPDF')}
                         </button>
                     </a>
@@ -77,7 +79,7 @@ export default function ProjectPage() {
                     {project.files.docx && project.files.docx.map((file, index) => (
                         <a key={index} href={file.url} download={file.fileName}>
                             <button
-                                className={`px-6 py-3 ${getRandomButtonStyle()} text-black rounded-md shadow transition duration-200 w-full`}>
+                                className={`px-6 py-3 ${getRandomButtonColors()} text-black rounded-md shadow transition duration-200 w-full`}>
                                 {t('button.docs')}
                             </button>
                         </a>

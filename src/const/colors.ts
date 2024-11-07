@@ -43,7 +43,7 @@ export const buttonColors: Record<string, string> = {
     'bg-fuchsia-400': 'bg-fuchsia-500',
 };
 
-export const getRandomButtonStyle = (): string => {
+export const getRandomButtonColors = (): string => {
     const keys = Object.keys(buttonColors);
     const randomKey = keys[Math.floor(Math.random() * keys.length)];
     const valueRandomKey = buttonColors[randomKey];

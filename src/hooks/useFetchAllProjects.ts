@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {IProject} from "../types/IProject.ts";
 
-export function useFetchProjects() {
+export function useFetchAllProjects() {
     const [projects, setProjects] = useState<IProject[]>([]);
     const [isLoading, setIsLoading] = useState(false);
 

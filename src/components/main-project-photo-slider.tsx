@@ -1,22 +1,21 @@
 import React from "react";
 import {IProject} from "../types/IProject";
-import SliderComponent from "./Slider";
+import MainSlider from "./main-slider.tsx";
 import {useTranslation} from "react-i18next";
 
 interface ProjectSliderProps {
     project: IProject;
+    isLoading?: boolean;
 }
 
-const MainProjectSlider: React.FC<ProjectSliderProps> = ({project}) => {
+const MainProjectPhotoSlider: React.FC<ProjectSliderProps> = ({project}) => {
     const {t} = useTranslation();
-
 
     const photos = project.slidesInfo.slidesPhotos.map(photo => `${project.slidesInfo.slidesPath}${photo}`);
 
     return (
-        <SliderComponent photos={photos} altText={t('sliderText')}/>
+        <MainSlider photos={photos} altText={t('sliderText')}/>
     );
 };
 
-
-export default MainProjectSlider;
+export default MainProjectPhotoSlider

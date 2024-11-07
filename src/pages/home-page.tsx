@@ -1,12 +1,12 @@
 import {Link} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
 import {useLanguageStore} from "../store/useLanguageStore.ts";
-import {useFetchProjects} from "../hooks/useFetchProjects.ts";
+import {useFetchAllProjects} from "../hooks/useFetchAllProjects.ts";
 import MainProjectCard from "../components/main-project-card.tsx";
 
-export default function Home() {
+export default function HomePage() {
     const {language} = useLanguageStore();
-    const {projects} = useFetchProjects();
+    const {projects} = useFetchAllProjects();
 
     return (
         <div>
@@ -15,7 +15,7 @@ export default function Home() {
                 <meta name="description" content="Explore my portfolio of projects."/>
             </Helmet>
 
-            {projects?.[0] && <MainProjectCard projectData={projects[0]}/>}
+            {projects?.[0] && <MainProjectCard project={projects[0]}/>}
             <main
                 className="grid grid-cols-2 sm:grid-cols-1 gap-[60px] xl:gap-[40px] lg:gap-[28px] md:gap-[20px]  sm:gap-4">
                 {projects.slice(1).map((project) => (

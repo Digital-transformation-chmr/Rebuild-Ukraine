@@ -3,21 +3,20 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-interface SliderComponentProps {
+interface Props {
     photos?: string[];
     altText?: string;
     children?: React.ReactNode;
     slidesToShow?: number;
 }
 
-const SliderComponent: React.FC<SliderComponentProps> = ({
-                                                             photos,
-                                                             altText = "slide image",
-                                                             children,
-                                                             slidesToShow = 1
-                                                         }) => {
+const MainSlider: React.FC<Props> = ({
+                                         photos,
+                                         altText = "slide image",
+                                         children,
+                                         slidesToShow = 1
+                                     }) => {
     const settings = {
-        gap: 40,
         dots: true,
         infinite: true,
         speed: 500,
@@ -38,4 +37,4 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
     );
 };
 
-export default SliderComponent;
+export default MainSlider;
