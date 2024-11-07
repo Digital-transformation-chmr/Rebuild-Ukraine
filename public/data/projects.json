@@ -61,7 +61,7 @@
           "ua": "Вартість"
         },
         "value": {
-          "en": "€1,500,000",
+          "en": "€1 500 000",
           "ua": "€1 500 000"
         }
       },
@@ -222,7 +222,7 @@
           "ua": "Вартість"
         },
         "value": {
-          "en": "€370,000",
+          "en": "€370 000",
           "ua": "€370 000"
         }
       },
@@ -302,7 +302,7 @@
           "ua": "Вартість"
         },
         "value": {
-          "en": "€1,780,400",
+          "en": "€1 780 400",
           "ua": "€1 780 400"
         }
       },
@@ -382,7 +382,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€1,207,500",
+          "en": "€1 207 500",
           "ua": "€1 207 500"
         }
       },
@@ -462,7 +462,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€1,304,500",
+          "en": "€1 304 500",
           "ua": "€1 304 500"
         }
       },
@@ -541,7 +541,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€1,980,000",
+          "en": "€1 980 000",
           "ua": "€1 980 000"
         }
       },
@@ -610,7 +610,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€2,150,000",
+          "en": "€2 150 000",
           "ua": "€2 150 000"
         }
       },
@@ -689,7 +689,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€25,000,000",
+          "en": "€25 000 000",
           "ua": "€25 000 000"
         }
       },
@@ -768,7 +768,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€280,000",
+          "en": "€280 000",
           "ua": "€280 000"
         }
       },
@@ -805,29 +805,29 @@
     ]
   },
   {
-    "id": "337bdec9-5d80-4092-a430-e040de48b5b4",
-    "slug": "reconstruction-of-the-main-sewage-collector-on-khimikiv-avenue",
+    "id": "bfb35c33-e304-489e-bd12-2a9f8d9b1d20",
+    "slug": "kvitkova-street-construction",
     "title": {
-      "en": "Reconstruction of the Main Sewage Collector on Khimikiv Avenue",
-      "ua": "Реконструкція головного колектора на проспекті Хіміків"
+      "en": "Construction of Kvitkova Street (from Sumgaitska St. to Khomenko St.)",
+      "ua": "Будівництво вул. Квіткова (від вул. Сумгаїтська до вул. Хоменка)"
     },
-    "titleImage": "/projects/10-main-sewage-collector-khimikiv/slides/0.jpg",
+    "titleImage": "/projects/10-kvitkova-street-construction/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/10-main-sewage-collector-khimikiv/slides/",
+      "slidesPath": "/projects/10-kvitkova-street-construction/slides/",
       "slidesPhotos": [
         "0.jpg",
-        "23.jpg",
-        "24.jpg"
+        "35.jpg",
+        "36.jpg"
       ]
     },
     "files": {
       "pptx": {
-        "fileName": "10-main-sewage-collector.pptx",
-        "url": "/projects/10-main-sewage-collector-khimikiv/10-main-sewage-collector-khimikiv.pptx"
+        "fileName": "10-kvitkova-street-construction.pptx",
+        "url": "/projects/10-kvitkova-street-construction/10-kvitkova-street-construction.pptx"
       },
       "pdf": {
-        "fileName": "10-main-sewage-collector.pdf",
-        "url": "/projects/10-main-sewage-collector-khimikiv/10-main-sewage-collector-khimikiv.pdf"
+        "fileName": "10-kvitkova-street-construction.pdf",
+        "url": "/projects/10-kvitkova-street-construction/10-kvitkova-street-construction.pdf"
       }
     },
     "details": [
@@ -837,7 +837,76 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€1,064,275",
+          "en": "€4 070 000",
+          "ua": "€4 070 000"
+        }
+      },
+      {
+        "key": {
+          "en": "Goal",
+          "ua": "Мета"
+        },
+        "value": {
+          "en": "Build a modern road with bicycle lanes to connect neighborhoods and improve transportation infrastructure",
+          "ua": "Створення сучасної дороги з велосипедними доріжками, що з'єднає мікрорайони та покращить транспортну інфраструктуру"
+        }
+      },
+      {
+        "key": {
+          "en": "Work",
+          "ua": "Проведення робіт"
+        },
+        "value": {
+          "en": "Road construction, bike lane installation, lighting, landscaping",
+          "ua": "Будівництво дороги, облаштування велодоріжок, освітлення, озеленення"
+        }
+      },
+      {
+        "key": {
+          "en": "Outcome",
+          "ua": "Результат"
+        },
+        "value": {
+          "en": "Enhanced road infrastructure, expanded bicycle network, and improved safety",
+          "ua": "Поліпшення дорожньої інфраструктури, розширення велосипедної мережі та підвищення безпеки"
+        }
+      }
+    ]
+  },
+  {
+    "id": "337bdec9-5d80-4092-a430-e040de48b5b4",
+    "slug": "reconstruction-of-the-main-sewage-collector-on-khimikiv-avenue",
+    "title": {
+      "en": "Reconstruction of the Main Sewage Collector on Khimikiv Avenue",
+      "ua": "Реконструкція головного колектора на проспекті Хіміків"
+    },
+    "titleImage": "/projects/11-main-sewage-collector-khimikiv/slides/0.jpg",
+    "slidesInfo": {
+      "slidesPath": "/projects/11-main-sewage-collector-khimikiv/slides/",
+      "slidesPhotos": [
+        "0.jpg",
+        "23.jpg",
+        "24.jpg"
+      ]
+    },
+    "files": {
+      "pptx": {
+        "fileName": "11-main-sewage-collector-khimikiv.pptx",
+        "url": "/projects/11-main-sewage-collector-khimikiv/11-main-sewage-collector-khimikiv.pptx"
+      },
+      "pdf": {
+        "fileName": "11-main-sewage-collector-khimikiv.pdf",
+        "url": "/projects/11-main-sewage-collector-khimikiv/11-main-sewage-collector-khimikiv.pdf"
+      }
+    },
+    "details": [
+      {
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€1 064 275",
           "ua": "€1 064 275"
         }
       },
@@ -870,9 +939,9 @@
       "en": "Reconstruction of the Main Sewage Collector on Hoholia Street",
       "ua": "Реконструкція головного колектора на вул. Гоголя"
     },
-    "titleImage": "/projects/11-main-sewage-collector-hoholia-street/slides/0.jpg",
+    "titleImage": "/projects/12-main-sewage-collector-hoholia-street/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/11-main-sewage-collector-hoholia-street/slides/",
+      "slidesPath": "/projects/12-main-sewage-collector-hoholia-street/slides/",
       "slidesPhotos": [
         "0.jpg",
         "23.jpg",
@@ -881,12 +950,12 @@
     },
     "files": {
       "pptx": {
-        "fileName": "11-main-sewage-collector-hoholia-street.pptx",
-        "url": "/projects/11-main-sewage-collector-hoholia-street/11-main-sewage-collector-hoholia-street.pptx"
+        "fileName": "12-main-sewage-collector-hoholia-street.pptx",
+        "url": "/projects/12-main-sewage-collector-hoholia-street/12-main-sewage-collector-hoholia-street.pptx"
       },
       "pdf": {
-        "fileName": "11-main-sewage-collector-hoholia-street.pdf",
-        "url": "/projects/11-main-sewage-collector-hoholia-street/11-main-sewage-collector-hoholia-street.pdf"
+        "fileName": "12-main-sewage-collector-hoholia-street.pdf",
+        "url": "/projects/12-main-sewage-collector-hoholia-street/12-main-sewage-collector-hoholia-street.pdf"
       }
     },
     "details": [
@@ -896,7 +965,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€1,932,616",
+          "en": "€1 932 616",
           "ua": "€1 932 616"
         }
       },
@@ -943,160 +1012,271 @@
     ]
   },
   {
-    "id": "7607b809-0893-434a-9294-06addd6c1a57",
-    "slug": "solar-power-plant-at-the-dnipro-water-treatment-plant",
+    "id": "a13c3e5f-813c-4c6e-9d5e-b378712ce6d7",
+    "slug": "water-treatment-plant",
     "title": {
-      "en": "Solar Power Plant at the Dnipro Water Treatment Plant",
-      "ua": "Сонячна електростанція на очисній станції Дніпра"
+      "en": "Construction of a 1 MW Solar Power Plant at the Dnipro Water Treatment Plant",
+      "ua": "Будівництво сонячної електростанції потужністю 1 МВт на Дніпровській водоочисній станції"
     },
-    "titleImage": "/projects/12-solar-power-plant-at-the-dnipro-water/slides/0.jpg",
+    "titleImage": "/projects/13-water-treatment-plant/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/12-solar-power-plant-at-the-dnipro-water/slides/",
-      "slidesPhotos": [
-        "0.jpg",
-        "25.jpg",
-        "26.jpg",
-        "27.jpg"
-      ]
+      "slidesPath": "/projects/13-water-treatment-plant/slides/",
+      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg", "3.jpg"]
     },
     "files": {
       "pptx": {
-        "fileName": "12-solar-power-plant-at-the-dnipro-water.pptx",
-        "url": "/projects/12-solar-power-plant-at-the-dnipro-water/12-solar-power-plant-at-the-dnipro-water.pptx"
+        "fileName": "13-water-treatment-plant.pptx",
+        "url": "/projects/13-water-treatment-plant/13-water-treatment-plant.pptx"
       },
       "pdf": {
-        "fileName": "12-solar-power-plant-at-the-dnipro-water.pdf",
-        "url": "/projects/12-solar-power-plant-at-the-dnipro-water/12-solar-power-plant-at-the-dnipro-water.pdf"
+        "fileName": "13-water treatment-plant.pdf",
+        "url": "/projects/13-water-treatment-plant/13-water-treatment-plant.pdf"
       }
     },
     "details": [
       {
-        "key": {
-          "en": "Total Cost",
-          "ua": "Загальна вартість"
-        },
+        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
+        "value": {"en": "€937 000", "ua": "€937 000"}
+      },
+      {
+        "key": {"en": "Goal", "ua": "Мета"},
         "value": {
-          "en": "€937,000",
-          "ua": "€937 000"
+          "en": "Ensure uninterrupted water supply and drainage for Cherkasy residents, even in wartime and blackout situations.",
+          "ua": "Забезпечення безперебійного водопостачання та водовідведення для мешканців Черкас, навіть в умовах війни та відключень."
         }
       },
       {
-        "key": {
-          "en": "Goal",
-          "ua": "Мета"
-        },
+        "key": {"en": "Solar Plant Capacity", "ua": "Потужність СЕС"},
+        "value": {"en": "1 MW", "ua": "1 МВт"}
+      },
+      {
+        "key": {"en": "Work", "ua": "Роботи"},
         "value": {
-          "en": "Ensure stable electricity supply for water supply facilities, even during emergencies",
-          "ua": "Забезпечити стабільне електропостачання для об’єктів водопостачання навіть під час надзвичайних ситуацій"
+          "en": "Purchase and installation of equipment, commissioning.",
+          "ua": "Придбання та монтаж обладнання, введення в експлуатацію."
         }
       },
       {
-        "key": {
-          "en": "Power Capacity",
-          "ua": "Потужність електростанції"
-        },
+        "key": {"en": "Outcome", "ua": "Результат"},
         "value": {
-          "en": " 1 MW",
-          "ua": "1 МегаВат"
-        }
-      },
-      {
-        "key": {
-          "en": "Work",
-          "ua": "Проведення робіт"
-        },
-        "value": {
-          "en": "Installation of a modular solar power station connected to water treatment facilities",
-          "ua": "Встановлення модульної сонячної електростанції, підключення до водоочисних споруд"
-        }
-      },
-      {
-        "key": {
-          "en": "Expected Outcome",
-          "ua": "Очікуваний результат"
-        },
-        "value": {
-          "en": "Energy autonomy for Cherkasy's water supply in summer months and the ability to supply excess power to the local grid",
-          "ua": "Енергетична автономія для водопостачання Черкас у літні місяці та можливість віддавати надлишкову енергію до місцевої мережі"
+          "en": "Full coverage of the Dnipro Water Treatment Plant's electricity needs in summer, with surplus energy supplied to Sokyrno village (199 residents). Environmental benefits include reducing CO2 emissions by 27 tons annually and saving 3,502 trees and 37,053 liters of fuel.",
+          "ua": "Повне покриття потреб Дніпровської водоочисної станції в електроенергії влітку, надлишки енергії постачаються до села Сокирне (199 мешканців). Екологічні переваги: зменшення викидів CO2 на 27 тонн щорічно, збереження 3,502 дерев та 37,053 літрів палива."
         }
       }
     ]
   },
   {
-    "id": "8bf443d5-b093-4ca2-80aa-e1836f9f57fd",
-    "slug": "wind-power-plant-at-the-dnipro-water-treatment-plant",
+    "id": "b32f7be1-ef3b-409d-8575-c2dcfdd813bc",
+    "slug": "solar-power-plant-at-a-pumping-station",
     "title": {
-      "en": "Wind Power Plant at the Dnipro Water Treatment Plant",
-      "ua": "Вітрова електростанція на очисній станції Дніпра"
+      "en": "Purchase of a Modular 300 kW Solar Power Plant for the III-Stage Pumping Station",
+      "ua": "Придбання модульної сонячної електростанції потужністю 300 кВт для насосної станції III підйому"
     },
-    "titleImage": "/projects/13-energy-solutions-cherkasyvodokanal/slides/0.jpg",
+    "titleImage": "/projects/14-solar-power-plant-at-a-pumping-station/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/13-energy-solutions-cherkasyvodokanal/slides/",
-      "slidesPhotos": [
-        "0.jpg",
-        "28.jpg",
-        "29.jpg"
-      ]
+      "slidesPath": "/projects/14-solar-power-plant-at-a-pumping-station/slides/",
+      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg", "3.jpg"]
     },
     "files": {
       "pptx": {
-        "fileName": "13-energy-solutions-cherkasyvodokanal.pptx",
-        "url": "/projects/13-energy-solutions-cherkasyvodokanal/13-energy-solutions-cherkasyvodokanal.pptx"
+        "fileName": "14-solar-power-plant-at-a-pumping-station.pptx",
+        "url": "/projects/14-solar-power-plant-at-a-pumping-station/14-solar-power-plant-at-a-pumping-station.pptx"
       },
       "pdf": {
-        "fileName": "13-energy-solutions-cherkasyvodokanal.pdf",
-        "url": "/projects/13-energy-solutions-cherkasyvodokanal.pdf"
+        "fileName": "14-solar-power-plant-at-a-pumping-station.pdf",
+        "url": "/projects/14-solar-power-plant-at-a-pumping-station/14-solar-power-plant-at-a-pumping-station.pdf"
       }
     },
     "details": [
       {
-        "key": {
-          "en": "Total Cost",
-          "ua": "Загальна вартість"
-        },
+        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
+        "value": {"en": "€562 418", "ua": "€562 418"}
+      },
+      {
+        "key": {"en": "Goal", "ua": "Мета"},
         "value": {
-          "en": "€2,000,000",
-          "ua": "€2 000 000"
+          "en": "Provide continuous water supply and drainage for Cherkasy, particularly during blackouts.",
+          "ua": "Забезпечити безперервне водопостачання та водовідведення в Черкасах, особливо під час відключень."
         }
       },
       {
-        "key": {
-          "en": "Goal",
-          "ua": "Мета"
-        },
+        "key": {"en": "Solar Plant Capacity", "ua": "Потужність СЕС"},
+        "value": {"en": "300 kW", "ua": "300 кВт"}
+      },
+      {
+        "key": {"en": "Work", "ua": "Роботи"},
         "value": {
-          "en": "Enhance energy efficiency through wind power for water treatment facilities",
-          "ua": "Підвищення енергоефективності за рахунок використання вітрової енергії для забезпечення роботи водоочисних споруд"
+          "en": "Purchase, installation, and commissioning of equipment.",
+          "ua": "Придбання, монтаж та введення в експлуатацію обладнання."
         }
       },
       {
-        "key": {
-          "en": "Power Capacity",
-          "ua": "Потужність електростанції"
-        },
+        "key": {"en": "Outcome", "ua": "Результат"},
         "value": {
-          "en": " 1 MW",
-          "ua": "1 МегаВат"
+          "en": "Supplies the reserve water intake \"Vilshanka\" with 100% of its electricity needs, with surplus power supplied to Sokyrno village. Environmental benefits include an 8-ton CO2 reduction annually, saving 1,061 trees and 11,228 liters of fuel.",
+          "ua": "Повне забезпечення електроенергією резервного водозабору \"Вільшанка\", надлишки енергії постачаються до села Сокирне. Екологічні переваги: скорочення викидів CO2 на 8 тонн щороку, збереження 1,061 дерев та 11,228 літрів палива."
+        }
+      }
+    ]
+  },
+  {
+    "id": "cd4e2f61-8a3f-4dcf-9c07-e004da8b39cb",
+    "slug": "solar-power-plant-vilshanka",
+    "title": {
+      "en": "Construction of a 1 MW Solar Power Plant at the Reserve Water Intake \"Vilshanka\"",
+      "ua": "Будівництво сонячної електростанції потужністю 1 МВт на резервному водозаборі \"Вільшанка\""
+    },
+    "titleImage": "/projects/15-solar-power-plant-vilshanka/slides/0.jpg",
+    "slidesInfo": {
+      "slidesPath": "/projects/15-solar-power-plant-vilshanka/slides/",
+      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg", "3.jpg"]
+    },
+    "files": {
+      "pptx": {
+        "fileName": "15-solar-power-plant-vilshanka.pptx",
+        "url": "/projects/15-solar-power-plant-vilshanka/15-solar-power-plant-vilshanka.pptx"
+      },
+      "pdf": {
+        "fileName": "15-solar-power-plant-vilshanka.pdf",
+        "url": "/projects/15-solar-power-plant-vilshanka/15-solar-power-plant-vilshanka.pdf"
+      }
+    },
+    "details": [
+      {
+        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
+        "value": {"en": "€932 398", "ua": "€932 398"}
+      },
+      {
+        "key": {"en": "Goal", "ua": "Мета"},
+        "value": {
+          "en": "Enhance the resilience of water services in wartime and during blackouts for Cherkasy residents.",
+          "ua": "Підвищення стійкості водопостачання в умовах війни та відключень для мешканців Черкас."
         }
       },
       {
-        "key": {
-          "en": "Work",
-          "ua": "Проведення робіт"
-        },
+        "key": {"en": "Solar Plant Capacity", "ua": "Потужність СЕС"},
+        "value": {"en": "1 MW", "ua": "1 МВт"}
+      },
+      {
+        "key": {"en": "Work", "ua": "Роботи"},
         "value": {
-          "en": "Installation of a wind power station and connection to the water supply system",
-          "ua": "Установка вітрової електростанції та приєднання до системи водопостачання"
+          "en": "Equipment purchase, installation, commissioning.",
+          "ua": "Придбання обладнання, монтаж, введення в експлуатацію."
         }
       },
       {
-        "key": {
-          "en": "Expected Outcome",
-          "ua": "Очікуваний результат"
-        },
+        "key": {"en": "Outcome", "ua": "Результат"},
         "value": {
-          "en": "Reliable water supply independent of traditional energy sources, crucial during wartime",
-          "ua": "Стабільне постачання води без залежності від традиційних енергоресурсів, особливо важливо у воєнний час"
+          "en": "Meets 100% of Vilshanka’s power needs in summer, with surplus energy sent to Sokyrno. It also cuts CO2 emissions by 27 tons annually, conserving 3,502 trees and 37,053 liters of fuel.",
+          "ua": "Повне забезпечення енергетичних потреб Вільшанки влітку, надлишки енергії йдуть до села Сокирне. Також зменшує викиди CO2 на 27 тонн на рік, зберігає 3,502 дерев та 37,053 літрів палива."
+        }
+      }
+    ]
+  },
+  {
+    "id": "de5c5f89-9ef1-4e6a-9e55-e5c14efaceb9",
+    "slug": "wind-power-plant-at-the-dnipro",
+    "title": {
+      "en": "Construction of a 1 MW Wind Power Plant at the Dnipro Water Treatment Plant",
+      "ua": "Будівництво вітроелектростанції потужністю 1 МВт на Дніпровській водоочисній станції"
+    },
+    "titleImage": "/projects/16-wind-power-plant-at-the-dnipro/slides/0.jpg",
+    "slidesInfo": {
+      "slidesPath": "/projects/16-wind-power-plant-at-the-dnipro/slides/",
+      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg"]
+    },
+    "files": {
+      "pptx": {
+        "fileName": "16-wind-power-plant-at-the-dnipro.pptx",
+        "url": "/projects/16-wind-power-plant-at-the-dnipro/16-wind-power-plant-at-the-dnipro.pptx"
+      },
+      "pdf": {
+        "fileName": "16-wind-power-plant-at-the-dnipro.pdf",
+        "url": "/projects/16-wind-power-plant-at-the-dnipro/16-wind-power-plant-at-the-dnipro.pdf"
+      }
+    },
+    "details": [
+      {
+        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
+        "value": {"en": "€2 000 000", "ua": "€2 000 000"}
+      },
+      {
+        "key": {"en": "Goal", "ua": "Мета"},
+        "value": {
+          "en": "Provide sustainable energy and reduce environmental pollution for Cherkasy’s water supply.",
+          "ua": "Забезпечення сталого енергопостачання та зменшення екологічного забруднення для водопостачання Черкас."
+        }
+      },
+      {
+        "key": {"en": "Wind Plant Capacity", "ua": "Потужність ВЕС"},
+        "value": {"en": "1 MW", "ua": "1 МВт"}
+      },
+      {
+        "key": {"en": "Work", "ua": "Роботи"},
+        "value": {
+          "en": "Purchase, installation, and commissioning of equipment.",
+          "ua": "Придбання, монтаж та введення в експлуатацію обладнання."
+        }
+      },
+      {
+        "key": {"en": "Outcome", "ua": "Результат"},
+        "value": {
+          "en": "Stable and eco-friendly power for Cherkasy residents, contributing to CO2 and NOx reduction and improving water supply resilience during blackouts.",
+          "ua": "Стабільна та екологічно чиста енергія для жителів Черкас, зменшення викидів CO2 та NOx та підвищення стійкості водопостачання під час відключень."
+        }
+      }
+    ]
+  },
+  {
+    "id": "e0cf5a63-fafb-48a3-9897-b1ff2f3f5c39",
+    "slug": "container-type-cogeneration-gas-piston",
+    "title": {
+      "en": "Purchase of a 1 MW Container-Type Cogeneration Gas-Piston Unit for the Dnipro Water Treatment Plant",
+      "ua": "Придбання контейнерного когенераційного газопоршневого агрегату потужністю 1 МВт для Дніпровської водоочисної станції"
+    },
+    "titleImage": "/projects/17-container-type-cogeneration-gas-piston/slides/0.jpg",
+    "slidesInfo": {
+      "slidesPath": "/projects/17-container-type-cogeneration-gas-piston/slides/",
+      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg"]
+    },
+    "files": {
+      "pptx": {
+        "fileName": "17-container-type-cogeneration-gas-piston.pptx",
+        "url": "/projects/17-container-type-cogeneration-gas-piston/17-container-type-cogeneration-gas-piston.pptx"
+      },
+      "pdf": {
+        "fileName": "17-container-type-cogeneration-gas-piston.pdf",
+        "url": "/projects/17-container-type-cogeneration-gas-piston/17-container-type-cogeneration-gas-piston.pdf"
+      }
+    },
+    "details": [
+      {
+        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
+        "value": {"en": "€578 894", "ua": "€578 894"}
+      },
+      {
+        "key": {"en": "Goal", "ua": "Мета"},
+        "value": {
+          "en": "Ensure the Dnipro Water Treatment Plant can function independently during power outages.",
+          "ua": "Забезпечити незалежну роботу Дніпровської водоочисної станції під час відключень."
+        }
+      },
+      {
+        "key": {"en": "Capacity", "ua": "Потужність"},
+        "value": {"en": "1 MW", "ua": "1 МВт"}
+      },
+      {
+        "key": {"en": "Work", "ua": "Роботи"},
+        "value": {
+          "en": "Purchase, installation, and commissioning of equipment.",
+          "ua": "Придбання, монтаж та введення в експлуатацію обладнання."
+        }
+      },
+      {
+        "key": {"en": "Outcome", "ua": "Результат"},
+        "value": {
+          "en": "Enhanced self-sufficiency for the treatment plant, stable water supply during blackouts, and provision of both electricity and thermal energy.",
+          "ua": "Підвищена самостійність станції, стабільне водопостачання під час відключень, забезпечення електричною та тепловою енергією."
         }
       }
     ]
@@ -1108,9 +1288,9 @@
       "en": "Boiler House Reconstruction on Yevhenia Kukhartsia Street",
       "ua": "Реконструкція котельні на вул. Євгенія Кухарця"
     },
-    "titleImage": "/projects/14-boiler-house-reconstruction/slides/0.jpg",
+    "titleImage": "/projects/18-boiler-house-reconstruction/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/14-boiler-house-reconstruction/slides/",
+      "slidesPath": "/projects/18-boiler-house-reconstruction/slides/",
       "slidesPhotos": [
         "0.jpg",
         "30.jpg"
@@ -1118,12 +1298,12 @@
     },
     "files": {
       "pptx": {
-        "fileName": "14-boiler-house-reconstruction.pptx",
-        "url": "/projects/14-boiler-house-reconstruction/14-boiler-house-reconstruction.pptx"
+        "fileName": "18-boiler-house-reconstruction.pptx",
+        "url": "/projects/18-boiler-house-reconstruction/18-boiler-house-reconstruction.pptx"
       },
       "pdf": {
-        "fileName": "14-boiler-house-reconstruction.pdf",
-        "url": "/projects/14-boiler-house-reconstruction/14-boiler-house-reconstruction.pdf"
+        "fileName": "18-boiler-house-reconstruction.pdf",
+        "url": "/projects/18-boiler-house-reconstruction/18-boiler-house-reconstruction.pdf"
       }
     },
     "details": [
@@ -1133,7 +1313,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€1,100,000",
+          "en": "€1 100 000",
           "ua": "€1 100 000"
         }
       },
@@ -1186,9 +1366,9 @@
       "en": "Heat Pumps in the 'Mytnytsia' Microdistrict",
       "ua": "Теплові насоси в мікрорайоні 'Митниця'"
     },
-    "titleImage": "/projects/15-heat-pumps-mytnytsia/slides/0.jpg",
+    "titleImage": "/projects/19-heat-pumps-mytnytsia/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/15-heat-pumps-mytnytsia/slides/",
+      "slidesPath": "/projects/19-heat-pumps-mytnytsia/slides/",
       "slidesPhotos": [
         "0.jpg",
         "31.jpg"
@@ -1196,12 +1376,12 @@
     },
     "files": {
       "pptx": {
-        "fileName": "15-heat-pumps-mytnytsia.pptx",
-        "url": "/projects/15-heat-pumps-mytnytsia/15-heat-pumps-mytnytsia.pptx"
+        "fileName": "19-heat-pumps-mytnytsia.pptx",
+        "url": "/projects/19-heat-pumps-mytnytsia/19-heat-pumps-mytnytsia.pptx"
       },
       "pdf": {
-        "fileName": "15-heat-pumps-mytnytsia.pdf",
-        "url": "/projects/15-heat-pumps-mytnytsia/15-heat-pumps-mytnytsia.pdf"
+        "fileName": "19-heat-pumps-mytnytsia.pdf",
+        "url": "/projects/19-heat-pumps-mytnytsia/19-heat-pumps-mytnytsia.pdf"
       }
     },
     "details": [
@@ -1211,7 +1391,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€4,100,000",
+          "en": "€4 100 000",
           "ua": "€4 100 000"
         }
       },
@@ -1264,9 +1444,9 @@
       "en": "Installation of a Solid Fuel Boiler on St. Luka Street",
       "ua": "Установка твердопаливного котла на вул. Святого Луки"
     },
-    "titleImage": "/projects/16-solid-fuel-boiler/slides/0.jpg",
+    "titleImage": "/projects/20-solid-fuel-boiler/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/16-solid-fuel-boiler/slides/",
+      "slidesPath": "/projects/20-solid-fuel-boiler/slides/",
       "slidesPhotos": [
         "0.jpg",
         "32.jpg"
@@ -1274,12 +1454,12 @@
     },
     "files": {
       "pptx": {
-        "fileName": "16-solid-fuel-boiler.pptx",
-        "url": "/projects/16-solid-fuel-boiler/16-solid-fuel-boiler.pptx"
+        "fileName": "20-solid-fuel-boiler.pptx",
+        "url": "/projects/20-solid-fuel-boiler/20-solid-fuel-boiler.pptx"
       },
       "pdf": {
-        "fileName": "16-solid-fuel-boiler.pdf",
-        "url": "/projects/16-solid-fuel-boiler/16-solid-fuel-boiler.pdf"
+        "fileName": "20-solid-fuel-boiler.pdf",
+        "url": "/projects/20-solid-fuel-boiler/20-solid-fuel-boiler.pdf"
       }
     },
     "details": [
@@ -1289,7 +1469,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€600,000",
+          "en": "€600 000",
           "ua": "€600 000"
         }
       },
@@ -1342,9 +1522,9 @@
       "en": "Installation of Individual Heating Units (IHUs)",
       "ua": "Встановлення індивідуальних теплових пунктів (ІТП)"
     },
-    "titleImage": "/projects/17-individual-heating-units/slides/0.jpg",
+    "titleImage": "/projects/21-individual-heating-units/slides/0.jpg",
     "slidesInfo": {
-      "slidesPath": "/projects/17-individual-heating-units/slides/",
+      "slidesPath": "/projects/21-individual-heating-units/slides/",
       "slidesPhotos": [
         "0.jpg",
         "33.jpg",
@@ -1353,12 +1533,12 @@
     },
     "files": {
       "pptx": {
-        "fileName": "17-individual-heating-units.pptx",
-        "url": "/projects/17-individual-heating-units/17-individual-heating-units.pptx"
+        "fileName": "21-individual-heating-units.pptx",
+        "url": "/projects/21-individual-heating-units/21-individual-heating-units.pptx"
       },
       "pdf": {
-        "fileName": "17-individual-heating-units.pdf",
-        "url": "/projects/17-individual-heating-units/17-individual-heating-units.pdf"
+        "fileName": "21-individual-heating-units.pdf",
+        "url": "/projects/21-individual-heating-units/21-individual-heating-units.pdf"
       }
     },
     "details": [
@@ -1368,7 +1548,7 @@
           "ua": "Загальна вартість"
         },
         "value": {
-          "en": "€1,050,000",
+          "en": "€1 050 000",
           "ua": "€1 050 000"
         }
       },
@@ -1410,75 +1590,6 @@
         "value": {
           "en": "Reliable hot water during non-heating seasons, reduced CO₂ emissions",
           "ua": "Забезпечення мешканців гарячою водою поза опалювальним сезоном, зниження викидів СО₂"
-        }
-      }
-    ]
-  },
-  {
-    "id": "bfb35c33-e304-489e-bd12-2a9f8d9b1d20",
-    "slug": "kvitkova-street-construction",
-    "title": {
-      "en": "Construction of Kvitkova Street (from Sumgaitska St. to Khomenko St.)",
-      "ua": "Будівництво вул. Квіткова (від вул. Сумгаїтська до вул. Хоменка)"
-    },
-    "titleImage": "/projects/18-kvitkova-street-construction/slides/0.jpg",
-    "slidesInfo": {
-      "slidesPath": "/projects/18-kvitkova-street-construction/slides/",
-      "slidesPhotos": [
-        "0.jpg",
-        "35.jpg",
-        "36.jpg"
-      ]
-    },
-    "files": {
-      "pptx": {
-        "fileName": "18-kvitkova-street-construction.pptx",
-        "url": "/projects/18-kvitkova-street-construction/18-kvitkova-street-construction.pptx"
-      },
-      "pdf": {
-        "fileName": "18-kvitkova-street-construction.pdf",
-        "url": "/projects/18-kvitkova-street-construction/18-kvitkova-street-construction.pdf"
-      }
-    },
-    "details": [
-      {
-        "key": {
-          "en": "Total Cost",
-          "ua": "Загальна вартість"
-        },
-        "value": {
-          "en": "€4,070,000",
-          "ua": "€4 070 000"
-        }
-      },
-      {
-        "key": {
-          "en": "Goal",
-          "ua": "Мета"
-        },
-        "value": {
-          "en": "Build a modern road with bicycle lanes to connect neighborhoods and improve transportation infrastructure",
-          "ua": "Створення сучасної дороги з велосипедними доріжками, що з'єднає мікрорайони та покращить транспортну інфраструктуру"
-        }
-      },
-      {
-        "key": {
-          "en": "Work",
-          "ua": "Проведення робіт"
-        },
-        "value": {
-          "en": "Road construction, bike lane installation, lighting, landscaping",
-          "ua": "Будівництво дороги, облаштування велодоріжок, освітлення, озеленення"
-        }
-      },
-      {
-        "key": {
-          "en": "Outcome",
-          "ua": "Результат"
-        },
-        "value": {
-          "en": "Enhanced road infrastructure, expanded bicycle network, and improved safety",
-          "ua": "Поліпшення дорожньої інфраструктури, розширення велосипедної мережі та підвищення безпеки"
         }
       }
     ]
