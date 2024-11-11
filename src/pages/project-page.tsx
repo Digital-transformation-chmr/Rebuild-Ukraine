@@ -61,7 +61,7 @@ export default function ProjectPage() {
                 </div>
 
                 <div
-                    className="w-full flex space-x-4 mt-6 xl:justify-around lg:justify-around md:justify-around sm:flex-col gap-4 sm:space-x-0 flex-wrap">
+                    className="w-full flex space-x-4 mt-6 justify-start sm:flex-col gap-4 sm:space-x-0 flex-wrap">
                     <a href={project.files.pptx.url} download={project.files.pptx.fileName}>
                         <button
                             className={`px-6 py-3 ${getRandomButtonColors()} text-black rounded-md shadow transition duration-200 w-full`}>

@@ -1,22 +1,28 @@
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useLanguageStore } from '../store/useLanguageStore';
 import { useTranslation } from 'react-i18next';
 
 export function useSetLanguageFromURL() {
     const location = useLocation();
-    const { language, setLanguage } = useLanguageStore();
+    const navigate = useNavigate();
+    const { language, setLanguage, defaultLanguage, supportedLanguages } = useLanguageStore();
     const { i18n } = useTranslation();
-    const currentLang = language || 'en';
 
     useEffect(() => {
-        // Determine the language from the URL
-        const pathLanguage = location.pathname.split('/')[1];
+        const segments = location.pathname.split('/').filter(Boolean);
 
-        // Update Zustand state if the URL language differs from the current language
-        if (pathLanguage && pathLanguage !== currentLang) {
-            setLanguage(pathLanguage as 'en' | 'ua');
-            i18n.changeLanguage(pathLanguage); // Update i18n with the new language
+        const pathLanguage = segments[0];
+
+        if (!supportedLanguages.includes(pathLanguage as typeof supportedLanguages[number])) {
+            setLanguage(defaultLanguage);
+            i18n.changeLanguage(defaultLanguage);
+
+            const newPath = `/${defaultLanguage}/${segments.slice(1).join('/')}`;
+            navigate(newPath, { replace: true });
+        } else if (pathLanguage !== language) {
+            setLanguage(pathLanguage as typeof supportedLanguages[number]);
+            i18n.changeLanguage(pathLanguage);
         }
-    }, [location.pathname, currentLang, setLanguage, i18n]);
+    }, [location.pathname, language, setLanguage, i18n, navigate, defaultLanguage, supportedLanguages]);
 }

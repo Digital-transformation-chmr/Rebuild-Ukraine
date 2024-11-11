@@ -24,10 +24,7 @@
         "12.jpg",
         "13.jpg",
         "14.jpg",
-        "15.jpg",
-        "16.jpg",
-        "17.jpg",
-        "18.jpg"
+        "15.jpg"
       ]
     },
     "files": {
@@ -38,21 +35,7 @@
       "pdf": {
         "fileName": "01-Swimming_pool_presentation.pdf",
         "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
-      },
-      "docx": [
-        {
-          "fileName": "Проектно-кошторисна документація",
-          "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
-        },
-        {
-          "fileName": "Проектно-кошторисна документація",
-          "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
-        },
-        {
-          "fileName": "Проектно-кошторисна документація",
-          "url": "/projects/01-swimming-pool/01-Swimming_pool_presentation.pdf"
-        }
-      ]
+      }
     },
     "details": [
       {
@@ -1021,7 +1004,12 @@
     "titleImage": "/projects/13-water-treatment-plant/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/13-water-treatment-plant/slides/",
-      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg", "3.jpg"]
+      "slidesPhotos": [
+        "0.jpg",
+        "1.jpg",
+        "2.jpg",
+        "3.jpg"
+      ]
     },
     "files": {
       "pptx": {
@@ -1035,29 +1023,50 @@
     },
     "details": [
       {
-        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
-        "value": {"en": "€937 000", "ua": "€937 000"}
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€937 000",
+          "ua": "€937 000"
+        }
       },
       {
-        "key": {"en": "Goal", "ua": "Мета"},
+        "key": {
+          "en": "Goal",
+          "ua": "Мета"
+        },
         "value": {
           "en": "Ensure uninterrupted water supply and drainage for Cherkasy residents, even in wartime and blackout situations.",
           "ua": "Забезпечення безперебійного водопостачання та водовідведення для мешканців Черкас, навіть в умовах війни та відключень."
         }
       },
       {
-        "key": {"en": "Solar Plant Capacity", "ua": "Потужність СЕС"},
-        "value": {"en": "1 MW", "ua": "1 МВт"}
+        "key": {
+          "en": "Solar Plant Capacity",
+          "ua": "Потужність СЕС"
+        },
+        "value": {
+          "en": "1 MW",
+          "ua": "1 МВт"
+        }
       },
       {
-        "key": {"en": "Work", "ua": "Роботи"},
+        "key": {
+          "en": "Work",
+          "ua": "Роботи"
+        },
         "value": {
           "en": "Purchase and installation of equipment, commissioning.",
           "ua": "Придбання та монтаж обладнання, введення в експлуатацію."
         }
       },
       {
-        "key": {"en": "Outcome", "ua": "Результат"},
+        "key": {
+          "en": "Outcome",
+          "ua": "Результат"
+        },
         "value": {
           "en": "Full coverage of the Dnipro Water Treatment Plant's electricity needs in summer, with surplus energy supplied to Sokyrno village (199 residents). Environmental benefits include reducing CO2 emissions by 27 tons annually and saving 3,502 trees and 37,053 liters of fuel.",
           "ua": "Повне покриття потреб Дніпровської водоочисної станції в електроенергії влітку, надлишки енергії постачаються до села Сокирне (199 мешканців). Екологічні переваги: зменшення викидів CO2 на 27 тонн щорічно, збереження 3,502 дерев та 37,053 літрів палива."
@@ -1075,7 +1084,12 @@
     "titleImage": "/projects/14-solar-power-plant-at-a-pumping-station/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/14-solar-power-plant-at-a-pumping-station/slides/",
-      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg", "3.jpg"]
+      "slidesPhotos": [
+        "0.jpg",
+        "1.jpg",
+        "2.jpg",
+        "3.jpg"
+      ]
     },
     "files": {
       "pptx": {
@@ -1089,29 +1103,50 @@
     },
     "details": [
       {
-        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
-        "value": {"en": "€562 418", "ua": "€562 418"}
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€562 418",
+          "ua": "€562 418"
+        }
       },
       {
-        "key": {"en": "Goal", "ua": "Мета"},
+        "key": {
+          "en": "Goal",
+          "ua": "Мета"
+        },
         "value": {
           "en": "Provide continuous water supply and drainage for Cherkasy, particularly during blackouts.",
           "ua": "Забезпечити безперервне водопостачання та водовідведення в Черкасах, особливо під час відключень."
         }
       },
       {
-        "key": {"en": "Solar Plant Capacity", "ua": "Потужність СЕС"},
-        "value": {"en": "300 kW", "ua": "300 кВт"}
+        "key": {
+          "en": "Solar Plant Capacity",
+          "ua": "Потужність СЕС"
+        },
+        "value": {
+          "en": "300 kW",
+          "ua": "300 кВт"
+        }
       },
       {
-        "key": {"en": "Work", "ua": "Роботи"},
+        "key": {
+          "en": "Work",
+          "ua": "Роботи"
+        },
         "value": {
           "en": "Purchase, installation, and commissioning of equipment.",
           "ua": "Придбання, монтаж та введення в експлуатацію обладнання."
         }
       },
       {
-        "key": {"en": "Outcome", "ua": "Результат"},
+        "key": {
+          "en": "Outcome",
+          "ua": "Результат"
+        },
         "value": {
           "en": "Supplies the reserve water intake \"Vilshanka\" with 100% of its electricity needs, with surplus power supplied to Sokyrno village. Environmental benefits include an 8-ton CO2 reduction annually, saving 1,061 trees and 11,228 liters of fuel.",
           "ua": "Повне забезпечення електроенергією резервного водозабору \"Вільшанка\", надлишки енергії постачаються до села Сокирне. Екологічні переваги: скорочення викидів CO2 на 8 тонн щороку, збереження 1,061 дерев та 11,228 літрів палива."
@@ -1129,7 +1164,12 @@
     "titleImage": "/projects/15-solar-power-plant-vilshanka/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/15-solar-power-plant-vilshanka/slides/",
-      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg", "3.jpg"]
+      "slidesPhotos": [
+        "0.jpg",
+        "1.jpg",
+        "2.jpg",
+        "3.jpg"
+      ]
     },
     "files": {
       "pptx": {
@@ -1143,29 +1183,50 @@
     },
     "details": [
       {
-        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
-        "value": {"en": "€932 398", "ua": "€932 398"}
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€932 398",
+          "ua": "€932 398"
+        }
       },
       {
-        "key": {"en": "Goal", "ua": "Мета"},
+        "key": {
+          "en": "Goal",
+          "ua": "Мета"
+        },
         "value": {
           "en": "Enhance the resilience of water services in wartime and during blackouts for Cherkasy residents.",
           "ua": "Підвищення стійкості водопостачання в умовах війни та відключень для мешканців Черкас."
         }
       },
       {
-        "key": {"en": "Solar Plant Capacity", "ua": "Потужність СЕС"},
-        "value": {"en": "1 MW", "ua": "1 МВт"}
+        "key": {
+          "en": "Solar Plant Capacity",
+          "ua": "Потужність СЕС"
+        },
+        "value": {
+          "en": "1 MW",
+          "ua": "1 МВт"
+        }
       },
       {
-        "key": {"en": "Work", "ua": "Роботи"},
+        "key": {
+          "en": "Work",
+          "ua": "Роботи"
+        },
         "value": {
           "en": "Equipment purchase, installation, commissioning.",
           "ua": "Придбання обладнання, монтаж, введення в експлуатацію."
         }
       },
       {
-        "key": {"en": "Outcome", "ua": "Результат"},
+        "key": {
+          "en": "Outcome",
+          "ua": "Результат"
+        },
         "value": {
           "en": "Meets 100% of Vilshanka’s power needs in summer, with surplus energy sent to Sokyrno. It also cuts CO2 emissions by 27 tons annually, conserving 3,502 trees and 37,053 liters of fuel.",
           "ua": "Повне забезпечення енергетичних потреб Вільшанки влітку, надлишки енергії йдуть до села Сокирне. Також зменшує викиди CO2 на 27 тонн на рік, зберігає 3,502 дерев та 37,053 літрів палива."
@@ -1183,7 +1244,11 @@
     "titleImage": "/projects/16-wind-power-plant-at-the-dnipro/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/16-wind-power-plant-at-the-dnipro/slides/",
-      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg"]
+      "slidesPhotos": [
+        "0.jpg",
+        "1.jpg",
+        "2.jpg"
+      ]
     },
     "files": {
       "pptx": {
@@ -1197,29 +1262,50 @@
     },
     "details": [
       {
-        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
-        "value": {"en": "€2 000 000", "ua": "€2 000 000"}
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€2 000 000",
+          "ua": "€2 000 000"
+        }
       },
       {
-        "key": {"en": "Goal", "ua": "Мета"},
+        "key": {
+          "en": "Goal",
+          "ua": "Мета"
+        },
         "value": {
           "en": "Provide sustainable energy and reduce environmental pollution for Cherkasy’s water supply.",
           "ua": "Забезпечення сталого енергопостачання та зменшення екологічного забруднення для водопостачання Черкас."
         }
       },
       {
-        "key": {"en": "Wind Plant Capacity", "ua": "Потужність ВЕС"},
-        "value": {"en": "1 MW", "ua": "1 МВт"}
+        "key": {
+          "en": "Wind Plant Capacity",
+          "ua": "Потужність ВЕС"
+        },
+        "value": {
+          "en": "1 MW",
+          "ua": "1 МВт"
+        }
       },
       {
-        "key": {"en": "Work", "ua": "Роботи"},
+        "key": {
+          "en": "Work",
+          "ua": "Роботи"
+        },
         "value": {
           "en": "Purchase, installation, and commissioning of equipment.",
           "ua": "Придбання, монтаж та введення в експлуатацію обладнання."
         }
       },
       {
-        "key": {"en": "Outcome", "ua": "Результат"},
+        "key": {
+          "en": "Outcome",
+          "ua": "Результат"
+        },
         "value": {
           "en": "Stable and eco-friendly power for Cherkasy residents, contributing to CO2 and NOx reduction and improving water supply resilience during blackouts.",
           "ua": "Стабільна та екологічно чиста енергія для жителів Черкас, зменшення викидів CO2 та NOx та підвищення стійкості водопостачання під час відключень."
@@ -1237,7 +1323,11 @@
     "titleImage": "/projects/17-container-type-cogeneration-gas-piston/slides/0.jpg",
     "slidesInfo": {
       "slidesPath": "/projects/17-container-type-cogeneration-gas-piston/slides/",
-      "slidesPhotos": ["0.jpg", "1.jpg", "2.jpg"]
+      "slidesPhotos": [
+        "0.jpg",
+        "1.jpg",
+        "2.jpg"
+      ]
     },
     "files": {
       "pptx": {
@@ -1251,29 +1341,50 @@
     },
     "details": [
       {
-        "key": {"en": "Total Cost", "ua": "Загальна вартість"},
-        "value": {"en": "€578 894", "ua": "€578 894"}
+        "key": {
+          "en": "Total Cost",
+          "ua": "Загальна вартість"
+        },
+        "value": {
+          "en": "€578 894",
+          "ua": "€578 894"
+        }
       },
       {
-        "key": {"en": "Goal", "ua": "Мета"},
+        "key": {
+          "en": "Goal",
+          "ua": "Мета"
+        },
         "value": {
           "en": "Ensure the Dnipro Water Treatment Plant can function independently during power outages.",
           "ua": "Забезпечити незалежну роботу Дніпровської водоочисної станції під час відключень."
         }
       },
       {
-        "key": {"en": "Capacity", "ua": "Потужність"},
-        "value": {"en": "1 MW", "ua": "1 МВт"}
+        "key": {
+          "en": "Capacity",
+          "ua": "Потужність"
+        },
+        "value": {
+          "en": "1 MW",
+          "ua": "1 МВт"
+        }
       },
       {
-        "key": {"en": "Work", "ua": "Роботи"},
+        "key": {
+          "en": "Work",
+          "ua": "Роботи"
+        },
         "value": {
           "en": "Purchase, installation, and commissioning of equipment.",
           "ua": "Придбання, монтаж та введення в експлуатацію обладнання."
         }
       },
       {
-        "key": {"en": "Outcome", "ua": "Результат"},
+        "key": {
+          "en": "Outcome",
+          "ua": "Результат"
+        },
         "value": {
           "en": "Enhanced self-sufficiency for the treatment plant, stable water supply during blackouts, and provision of both electricity and thermal energy.",
           "ua": "Підвищена самостійність станції, стабільне водопостачання під час відключень, забезпечення електричною та тепловою енергією."

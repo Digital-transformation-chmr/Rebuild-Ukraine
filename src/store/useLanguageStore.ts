@@ -1,12 +1,17 @@
+import { create } from 'zustand/react';
 
-import {create} from "zustand/react";
+type Language = 'en' | 'ua';
 
 interface LanguageState {
-    language: 'en' | 'ua';
-    setLanguage: (lang: 'en' | 'ua') => void;
+    supportedLanguages: Language[];
+    language: Language;
+    defaultLanguage: Language;
+    setLanguage: (lang: Language) => void;
 }
 
 export const useLanguageStore = create<LanguageState>((set) => ({
+    supportedLanguages: ['en', 'ua'],
     language: 'en',
-    setLanguage: (lang) => set({language: lang}),
+    defaultLanguage: 'en',
+    setLanguage: (lang) => set({ language: lang }),
 }));
